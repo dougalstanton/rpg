@@ -36,7 +36,7 @@ The winter festival is built around the village Seer's vision quest to the futur
 Denizens of the Elder Caves, which I chose by looking for the water-related foes:
 
 * Eel (very common)
-* Shround Crab (common)
+* Shroud Crab (common)
 * Sodden (uncommon)
 * Rhaskar (rare)
 * Kraken (unforeseen)
