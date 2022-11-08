@@ -4,7 +4,16 @@ banner_y: 0.2
 
 ---
 
-![Carolyn the Guardian](https://static.wikia.nocookie.net/lovecraft/images/8/89/Carolyn_Fern_1.jpg/revision/latest?cb=20210430191519)
+# Up is Down, Left is Right
+
+- [Cthulhu Dark](http://catchyourhare.com/files/Cthulhu%20Dark.pdf) by Graham Walmsley
+- [Arkham Horror the Card Game](https://www.fantasyflightgames.com/en/products/arkham-horror-the-card-game/) by Fantasy Flight Games
+
+I decided to see if I could play the first scenario from the Arkham Horror game using a rules-light RPG instead of the card game rules. I didn't use any external oracles, just advancing the plot in good or bad directions according to what seemed "right" in the moment.
+
+So, this is Carolyn Fern in 'The Gathering', which is part 1 of _The Night of the Zealot_ campaign from the core Arkham Horror game.
+
+---
 
 Investigator: Carolyn Fern - Psychologist - [Arkham Horror wiki](http://www.arkhamhorrorwiki.com/Carolyn_Fern)
 
