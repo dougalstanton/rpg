@@ -6,4 +6,4 @@ author:
 collections:
   reports:
     output: true
-    permalink: /:name
+    permalink: _site/:name
