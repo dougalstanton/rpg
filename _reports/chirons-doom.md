@@ -1,5 +1,7 @@
 ---
+layout: page
 banner: "https://yugotour.com/wp-content/uploads/2018/02/monument.jpg"
+summary: "A journalling game about a trio of misfits entering an alien artefact"
 ---
 
 # Chiron's Doom
