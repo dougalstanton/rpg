@@ -1,3 +1,9 @@
+---
+title: "Into the Elder Caves"
+system: "Ironsworn"
+summary: "A short Ironsworn game, inspired by the art from the Delve supplement"
+---
+
 # ShortCut: Delve into the Elder Caves
 
 Page 5 of *Delve*: woman with sword and round shield, light armour, knee deep in water, entering a sea cave. Let's find out who she is and what she wants (randomly).
