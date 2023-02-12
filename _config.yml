@@ -6,3 +6,4 @@ author:
 collections:
   reports:
     output: true
+    permalink: /:name
