@@ -1,3 +1,7 @@
+---
+layout: home
+---
+
 The write-ups from a bunch of solo table-top roleplaying games that I have played.
 
 * [Chiron's Doom](chirons-doom), a journalling game about a trio of misfits entering an alien artefact.
