@@ -3,6 +3,8 @@ author:
   name: Dougal Stanton
   email: solorpg@dougalstanton.net
 
+baseurl: /rpg
+
 collections:
   reports:
     output: true
