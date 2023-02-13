@@ -1,7 +1,11 @@
 ---
+layout: report
+
 title: "Into the Elder Caves"
+summary: "A short Ironsworn game, inspired by some art from the Delve supplement"
+
 system: "Ironsworn"
-summary: "A short Ironsworn game, inspired by the art from the Delve supplement"
+supplements: "Ironsworn Delve"
 ---
 
 # ShortCut: Delve into the Elder Caves

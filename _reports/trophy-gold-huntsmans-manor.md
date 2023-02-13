@@ -1,4 +1,5 @@
 ---
+layout: report
 title: "The Huntsman's Manor"
 summary: "A first Trophy Gold incursion, from an encounter I imagined"
 

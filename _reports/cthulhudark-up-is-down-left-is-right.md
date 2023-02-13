@@ -1,15 +1,22 @@
 ---
-layout: page
+layout: report
+
 banner: "https://external-preview.redd.it/w_R7l7s8H1yvZumRwL3cWRAdOfWsD3Yw0UXKpwU0Ygs.jpg?auto=webp&s=f509f574c1a86a6555bf54b64344818b744ad7b1"
 banner_y: 0.2
 
 title: "Up is Down, Left is Right"
+summary: "Carolyn Fern's house is the battleground between magic and monsters"
 
 system: "Cthulhu Dark"
 supplements: "Arkham Horror LCG"
 
 series: "Arkham on Fire"
+description: "Night of the Zealot played without cards"
 session: 1
+
+adventure:
+  title: "The Gathering"
+  author: "Final Fantasy Games"
 ---
 
 # Up is Down, Left is Right

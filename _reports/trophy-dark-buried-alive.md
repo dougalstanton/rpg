@@ -1,7 +1,12 @@
 ---
+layout: report
+
 title: "Buried Alive"
+summary: "First attempt at soloing Trophy Dark in a slightly unorthodox dialogue"
+
 system: "Trophy Dark"
 supplements: "Trophy Solo"
+
 adventure:
  title: "Tomb of 10,000 Dreams"
  author: "Jesse Ross"
