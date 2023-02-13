@@ -5,13 +5,13 @@ layout: home
 The write-ups from a bunch of solo table-top roleplaying games that I have played.
 
 <dl>
-  {% for report in site.reports %}
+  {% for r in site.reports %}
   
-    {% unless report.series %}
-  <dt><a href="{{ report.url | relative_url }}">{{ report.title }}</a>{% if report.system %}({% report.system %}){% endif %}</dt>
-  <dd>{{ report.summary }}</dd>
-      {% if report.adventure %}
-  <dd>Following <i>{{ report.adventure.title }}</i> by {{ report.adventure.author }}</dd>
+    {% unless r.series %}
+  <dt><a href="{{ r.url | relative_url }}">{{ r.title }}</a>{% if r.system %}({% r.system %}){% endif %}</dt>
+  <dd>{{ r.summary }}</dd>
+      {% if r.adventure %}
+  <dd>Following <i>{{ r.adventure.title }}</i> by {{ r.adventure.author }}</dd>
       {% endif %}
     {% endunless %}
     
