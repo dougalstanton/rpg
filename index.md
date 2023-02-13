@@ -17,6 +17,7 @@ The write-ups from a bunch of solo table-top roleplaying games that I have playe
     
   {% endfor %}
   
+  {% comment %}
   {% assign multiples = site.reports | where: "series" | groupby: "series" %}
   {% for campaign in multiples %}
   <dt>{{ campaign.name }} ({{ campaign.items[0].system }})</dt>
@@ -27,4 +28,6 @@ The write-ups from a bunch of solo table-top roleplaying games that I have playe
   </dd>
     {% endfor %}
   {% endfor %}
+  
+  {% endcomment %}
 </dl>
