@@ -3,6 +3,8 @@ author:
   name: Dougal Stanton
   email: solorpg@dougalstanton.net
 
+remote_theme: poole/lanyon
+
 baseurl: /rpg
 
 collections:
