@@ -10,9 +10,9 @@ The write-ups from a bunch of solo table-top roleplaying games that I have playe
     {% unless report.series %}
   <dt><a href="{{ report.url | relative_url }}">{{ report.title }}</a>{% if report.system %}({% report.system %}){% endif %}</dt>
   <dd>{{ report.summary }}</dd>
-  {% if report.adventure %}
+      {% if report.adventure %}
   <dd>Following <i>{{ report.adventure.title }}</i> by {{ report.adventure.author }}</dd>
-  {% endif %}
+      {% endif %}
     {% endunless %}
     
   {% endfor %}
