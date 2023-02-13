@@ -22,12 +22,14 @@ The write-ups from a bunch of solo table-top roleplaying games that I have playe
   {% for campaign in grouped %}  
   <dt>{{ campaign.name }} ({{ campaign.items[0].system }})</dt>
     {% assign episodes = campaign.items | sort: "session" %}
-  
+  {{episodes.size}}
+  {%comment%}
     {% for episode in episodes %}
   <dd>Session {{ episode.session }}.
     <a href="{{ episode.url | relative_url }}">{{ episode.title }}</a>
   </dd>
     {% endfor %}
+  {%endcomment%}
   {% endfor %}
   
 </dl>
