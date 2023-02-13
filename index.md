@@ -12,13 +12,13 @@ The write-ups from a bunch of solo table-top roleplaying games that I have playe
 <dl>
   {% for r in oneshots %}
   
-    {%comment}{% unless r.series %}{%endcomment%}
   <dt><a href="{{ r.url | relative_url }}">{{ r.title }}</a>{% if r.system %} ({{ r.system }}){% endif %}</dt>
+    {% if r.summary %}
   <dd>{{ r.summary }}</dd>
-      {% if r.adventure %}
+    {% endif %}
+    {% if r.adventure %}
   <dd>Following <i>{{ r.adventure.title }}</i> by {{ r.adventure.author }}</dd>
-      {% endif %}
-    {%comment%}{% endunless %}{%endcomment%}
+    {% endif %}
     
   {% endfor %}
 
