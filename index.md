@@ -8,7 +8,7 @@ The write-ups from a bunch of solo table-top roleplaying games that I have playe
 {% assign allseries = site.reports | groupby: "series" %}
 {% for series in allseries %}
   {% if series.size == 1 %}
-    {% assign report = series.item[0] %}
+    {% assign report = series.items[0] %}
     <dt>
       <a href="{{ report.url | relative_url }}">{{ report.title }}</a> ({{ report.system }})
     </dt>
@@ -17,9 +17,9 @@ The write-ups from a bunch of solo table-top roleplaying games that I have playe
       <dd>Following <i>{{ report.adventure.title }}</i> by {{ report.adventure.author }}</dd>
     {% endif %}
   {% else %}
-    <dt>{{ report.title }} ({{ report.system }})</dt>
+    <dt>{{ series.title }} ({{ series.items[0].system }})</dt>
     Session 
-    {% for episode in series.item | sort: "session" %}
+    {% for episode in series.items | sort: "session" %}
       <a href="{{ episode.url | relative_url }}">{{ episode.session }}</a>{% unless forloop.last %},{% endunless %}
     {% endfor %}
   {% endif %}
