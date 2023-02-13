@@ -24,10 +24,11 @@ The write-ups from a bunch of solo table-top roleplaying games that I have playe
 
   {% assign grouped = multiple | group_by: "series" %}
   {% for campaign in grouped %}  
-
-  <dt>{{ campaign.name }} ({{ campaign.items[0].system }})</dt>
     {% assign episodes = campaign.items | sort: "session" %}
-
+  <dt>{{ campaign.name }} ({{ episodes[0].system }})</dt>
+    {% if episodes[0].description %}
+  <dd>{{ episodes[0].description }}</dd>
+    {% endif %}
     {% for episode in episodes %}
   <dd>Session {{ episode.session }}.
     <a href="{{ episode.url | relative_url }}">{{ episode.title }}</a>
