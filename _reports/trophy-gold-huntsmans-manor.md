@@ -1,3 +1,12 @@
+---
+title: "The Huntsman's Manor"
+system: "Trophy Gold"
+supplements: ["Trophy Solo"]
+series: "Strangers on a Misty Road"
+session: 1
+---
+
+
 * Trophy Gold
 * Trophy Solo oracles
 * _The Huntsman's Manor_ incursion
