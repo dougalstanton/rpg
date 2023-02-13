@@ -10,7 +10,7 @@ The write-ups from a bunch of solo table-top roleplaying games that I have playe
 {{ oneshots.size }} one shots and {{ multiple.size }} continuing sessions.
 
 <dl>
-  {% for r in site.reports %}
+  {% for r in oneshots %}
   
     {% unless r.series %}
   <dt><a href="{{ r.url | relative_url }}">{{ r.title }}</a>{% if r.system %} ({{ r.system }}){% endif %}</dt>
