@@ -5,7 +5,7 @@ layout: home
 The write-ups from a bunch of solo table-top roleplaying games that I have played.
 
 {% assign oneshots = site.reports | where: "series", nil %}
-{% assign multiple = site.reports | where: "series, true %}
+{% assign multiple = site.reports | where: "series", true %}
 
 {{ oneshots.size }} one shots and {{ multiple.size }} continuing sessions.
 
