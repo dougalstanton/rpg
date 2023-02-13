@@ -7,7 +7,7 @@ The write-ups from a bunch of solo table-top roleplaying games that I have playe
 <dl>
 {% for report in site.reports %}
   <dt>
-    <a href="{{ report.url }}">{{ report.title }}</a> ({{ report.system }})
+    <a href="{{ report.url | relative_url }}">{{ report.title }}</a> ({{ report.system }})
   </dt>
   <dd>{{ report.summary | markdownify }}</dd>
 {% endfor %}
