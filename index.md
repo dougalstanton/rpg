@@ -4,6 +4,11 @@ layout: home
 
 The write-ups from a bunch of solo table-top roleplaying games that I have played.
 
+{% assign oneshots = site.reports | where: "series", nil %}
+{% assign multiple = site.reports | where: "series, true %}
+
+{{ oneshots.size }} one shots and {{ multiple.size }} continuing sessions.
+
 <dl>
   {% for r in site.reports %}
   
@@ -17,8 +22,7 @@ The write-ups from a bunch of solo table-top roleplaying games that I have playe
     
   {% endfor %}
 
-  {% assign allseries = site.reports | where: "series", true %}
-  {% assign grouped = allseries | group_by: "series" %}
+  {% assign grouped = multiple | group_by: "series" %}
   {% for campaign in grouped %}  
 
   <dt>{{ campaign.name }} ({{ campaign.items[0].system }})</dt>
