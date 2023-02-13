@@ -2,6 +2,10 @@
 banner: "https://geographicalimaginations.files.wordpress.com/2014/11/stretcher-bearers.jpg"
 banner_x: 0.5
 banner_y: 0.272
+title: "No Man's Land"
+system: "Trophy Dark"
+summary: "An improvised game set on the Western Front in the Great War"
+supplements: ["Trophy Solo", "Ironsworn"]
 ---
 
 # No Man's Land
