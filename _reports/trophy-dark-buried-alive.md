@@ -1,3 +1,12 @@
+---
+title: "Buried Alive"
+system: "Trophy Dark"
+supplements: "Trophy Solo"
+adventure:
+ title: "Tomb of 10,000 Dreams"
+ author: "Jesse Ross"
+---
+
 # Tomb Of 10,000 Dreams
 
 - Trophy Dark by Jesse Ross
