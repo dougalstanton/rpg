@@ -8,7 +8,7 @@ The write-ups from a bunch of solo table-top roleplaying games that I have playe
   {% for r in site.reports %}
   
     {% unless r.series %}
-  <dt><a href="{{ r.url | relative_url }}">{{ r.title }}</a>{% if r.system %}({% r.system %}){% endif %}</dt>
+  <dt><a href="{{ r.url | relative_url }}">{{ r.title }}</a>{% if r.system %}({{ r.system }}){% endif %}</dt>
   <dd>{{ r.summary }}</dd>
       {% if r.adventure %}
   <dd>Following <i>{{ r.adventure.title }}</i> by {{ r.adventure.author }}</dd>
