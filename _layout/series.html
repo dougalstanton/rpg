@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<p>Part {{ page.session }} of <i>{{ page.series }}.</i></p>
+
+{{ content }}
+
+{% assign nextNum = page.session | plus: 1 %}
+{% assign nextSession = site.reports | where_exp: "i.series == page.series and i.session == nextNum" %}
+{% if nextSession %}
+<p><a href="{{ nextSession.url | relative_url }}">Read next session</a></p>
+{% else %}
+<p>To be continued &hellip;</p>
+{% endif %]
