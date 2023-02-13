@@ -1,5 +1,5 @@
 ---
-layout: report
+layout: series
 title: "The Huntsman's Manor"
 summary: "Following the remainder of the party into the maze"
 
