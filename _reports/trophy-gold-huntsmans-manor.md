@@ -7,6 +7,7 @@ system: "Trophy Gold"
 supplements: ["Trophy Solo"]
 
 series: "Strangers on a Misty Road"
+description: "I wanted this to be all gothic and creepy and I failed"
 session: 1
 ---
 
