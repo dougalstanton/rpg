@@ -17,9 +17,9 @@ The write-ups from a bunch of solo table-top roleplaying games that I have playe
     
   {% endfor %}
 
-    {%comment%}
-  {% assign allseries = site.reports | where: "series" %}
-
+    
+  {% assign allseries = site.reports %}
+{%comment%}
   {% assign grouped = allseries | group_by: "series" %}
   
   {% for campaign in grouped %}  
