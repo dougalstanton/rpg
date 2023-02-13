@@ -18,7 +18,7 @@ The write-ups from a bunch of solo table-top roleplaying games that I have playe
     {% endif %}
   {% else %}
     <dt>{{ series.title }} ({{ series.items[0].system }})</dt>
-    {% assign episodes = series.items | sort: "session" %}
+    {% assign episodes = series.items | sort: "items.session" %}
     Session 
     {% for episode in episodes %}
       <a href="{{ episode.url | relative_url }}">{{ episode.session }}</a>{% unless forloop.last %},{% endunless %}
