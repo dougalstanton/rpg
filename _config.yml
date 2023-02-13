@@ -8,4 +8,4 @@ baseurl: /rpg
 collections:
   reports:
     output: true
-    permalink: _site/:name
+    permalink: /:name
