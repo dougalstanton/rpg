@@ -18,7 +18,7 @@ The write-ups from a bunch of solo table-top roleplaying games that I have playe
   {% endfor %}
   
   {% assign allseries = site.reports | where: "series" %}
-  {% assign grouped = allseries | groupby: "series" %}
+  {% assign grouped = allseries | group_by: "series" %}
   {% for campaign in grouped %}  
   <dt>{{ campaign.name }} ({{ campaign.items[0].system }})</dt>
     {% assign episodes = campaign.items | sort: "session" %}
