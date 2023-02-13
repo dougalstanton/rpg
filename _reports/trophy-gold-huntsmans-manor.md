@@ -1,7 +1,10 @@
 ---
 title: "The Huntsman's Manor"
+summary: "A first Trophy Gold incursion, from an encounter I imagined"
+
 system: "Trophy Gold"
 supplements: ["Trophy Solo"]
+
 series: "Strangers on a Misty Road"
 session: 1
 ---
