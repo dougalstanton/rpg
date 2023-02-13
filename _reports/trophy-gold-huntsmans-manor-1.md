@@ -584,5 +584,3 @@ Has he discarded his weapons? Yes but... kept his armour.
 FORET pulled a small jar from his pocket, containing 3 glow worms. He followed a trail through the rough grass into the bramble thicket, lit by the dim yellow wormlight. Along the way he found ORLEN duelling sabre on the ground. "Hold these" and gives them to ESFAHEN.
 
 They stepped through a stone archway choked with vines, into the overgrown hedge maze.
-
-_To be continued._
