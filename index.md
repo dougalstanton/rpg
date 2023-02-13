@@ -17,11 +17,8 @@ The write-ups from a bunch of solo table-top roleplaying games that I have playe
     
   {% endfor %}
 
-    
-  {% assign allseries = site.reports | where: "series" %}
-{%comment%}
+  {% assign allseries = site.reports | where: "series", true %}
   {% assign grouped = allseries | group_by: "series" %}
-  
   {% for campaign in grouped %}  
 
   <dt>{{ campaign.name }} ({{ campaign.items[0].system }})</dt>
@@ -33,6 +30,5 @@ The write-ups from a bunch of solo table-top roleplaying games that I have playe
   </dd>
     {% endfor %}
   {% endfor %}
-  {%endcomment%}
   
 </dl>
