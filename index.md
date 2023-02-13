@@ -31,7 +31,7 @@ The write-ups from a bunch of solo table-top roleplaying games that I have playe
     {% endif %}
     {% for episode in episodes %}
   <dd>Session {{ episode.session }}.
-    <a href="{{ episode.url | relative_url }}">{{ episode.title }}</a>
+    <a href="{{ episode.url | relative_url }}">{{ episode.title }}</a> &mdash; {{ episode.summary }}
   </dd>
     {% endfor %}
   {% endfor %}
