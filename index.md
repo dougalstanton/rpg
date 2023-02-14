@@ -8,33 +8,29 @@ The write-ups from a bunch of solo table-top roleplaying games that I have playe
 {% assign oneshots = site.reports | where_exp:"i", "i.series == nil" %}
 {% assign multiple = site.reports | where_exp:"i", "i.series" %}
 
-{{ oneshots.size }} one shots and {{ multiple.size }} continuing sessions.
-
-<dl>
+<div>
   {% for r in oneshots %}
   
-  <dt><a href="{{ r.url | relative_url }}">{{ r.title }}</a>{% if r.system %} ({{ r.system }}){% endif %}</dt>
-    {% if r.summary %}
-  <dd>{{ r.summary }}</dd>
-    {% endif %}
-    {% if r.adventure %}
-  <dd>Following <i>{{ r.adventure.title }}</i> by {{ r.adventure.author }}</dd>
-    {% endif %}
+  <p><strong><a href="{{ r.url | relative_url }}">{{ r.title }}</a></strong>{% if r.system %} ({{ r.system }}){% endif %}</p>
+    
+  <p>{% if r.summary %}{{ r.summary }}{% endif %}
+     {% if r.adventure %}<br/>Following <i>{{ r.adventure.title }}</i> by {{ r.adventure.author }}{% endif %}
+  </p>
     
   {% endfor %}
 
   {% assign grouped = multiple | group_by: "series" %}
   {% for campaign in grouped %}  
     {% assign episodes = campaign.items | sort: "session" %}
-  <dt>{{ campaign.name }} ({{ episodes[0].system }})</dt>
+  <p><strong>{{ campaign.name }} ({{ episodes[0].system }})</strong>
     {% if episodes[0].description %}
-  <dd>{{ episodes[0].description }}</dd>
+  <p>{{ episodes[0].description }}</p>
     {% endif %}
     {% for episode in episodes %}
-  <dd>Session {{ episode.session }}.
-    <a href="{{ episode.url | relative_url }}">{{ episode.title }}</a> &mdash; {{ episode.summary }}
-  </dd>
+  <ul>
+  <li>Session {{ episode.session }}. <a href="{{ episode.url | relative_url }}">{{ episode.title }}</a> &mdash; {{ episode.summary }}</li>
+  </ul>
     {% endfor %}
   {% endfor %}
   
-</dl>
+</div>
