@@ -6,7 +6,7 @@ title: "Chiron's Doom"
 summary: "A journalling game about a trio of misfits entering an alien artefact"
 
 header:
-  overlay_image: "/assets/images/merritt-DzEeHYJIzOc-unsplash.jpg"
+  image: "/assets/images/merritt-DzEeHYJIzOc-unsplash.jpg"
   overlay_filter: linear-gradient(rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.9))
   caption: "[Merritt](https://unsplash.com/photos/DzEeHYJIzOc)"
 
