@@ -1,14 +1,13 @@
 ---
-layout: page
+layout: home
 title: Solo RPG Reports
 ---
 
-The write-ups from a bunch of solo table-top roleplaying games that I have played.
+<p>The write-ups from a bunch of solo table-top roleplaying games that I have played.</p>
 
 {% assign oneshots = site.reports | where_exp:"i", "i.series == nil" %}
 {% assign multiple = site.reports | where_exp:"i", "i.series" %}
 
-<div>
   {% for r in oneshots %}
   
   <p><strong><a href="{{ r.url | relative_url }}">{{ r.title }}</a></strong>{% if r.system %} ({{ r.system }}){% endif %}</p>
@@ -22,7 +21,7 @@ The write-ups from a bunch of solo table-top roleplaying games that I have playe
   {% assign grouped = multiple | group_by: "series" %}
   {% for campaign in grouped %}  
     {% assign episodes = campaign.items | sort: "session" %}
-  <p><strong>{{ campaign.name }} ({{ episodes[0].system }})</strong>
+  <p><strong>{{ campaign.name }}</strong> ({{ episodes[0].system }})</p>
     {% if episodes[0].description %}
   <p>{{ episodes[0].description }}</p>
     {% endif %}
@@ -32,5 +31,3 @@ The write-ups from a bunch of solo table-top roleplaying games that I have playe
   </ul>
     {% endfor %}
   {% endfor %}
-  
-</div>
