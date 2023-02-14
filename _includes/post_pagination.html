@@ -2,14 +2,14 @@
   <nav class="pagination">
     {% assign series = site.reports | where:"series",page.series %}
     {% if page.session > 1 %}
-      {% assign prevSession = page.session | minus: 1 %}
+      {% assign prevSession = page.session | minus: 2 %}
       {% assign prevEpisode = series[prevSession] %}
       <a href="{{ prevEpisode.url | relative_url }}" class="pagination--pager" title="{{ prevEpisode.title | markdownify | strip_html }}">Previous</a>
     {% else %}
       <a href="#" class="pagination--pager disabled">Previous</a>
     {% endif %}
     {% if page.session < series.size %}
-      {% assign nextSession = page.session | plus: 1 %}
+      {% assign nextSession = page.session %}
       {% assign nextEpisode = series[nextSession] %}                          
       <a href="{{ nextEpisode.url | relative_url }}" class="pagination--pager" title="{{ nextEpisode.title | markdownify | strip_html }}">Next</a>
     {% else %}
