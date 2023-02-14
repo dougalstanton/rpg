@@ -28,7 +28,7 @@ FORET is a pace or more behind, to his left. He speaks his mind freely but spari
 
 Immediately a figure with a crossbow bursts from the forest on FORET's left. "I am no _lad_!" she shouts and points the weapon at ORLEN. "I need your mount, _sir_."
 
-```ad-roll
+```
 There's a roll here but first we need to establish some concrete details. She is a runaway from a temple, further details to be established.
 
 MAHERA
@@ -74,7 +74,7 @@ This wasn't going at all how she'd planned but she hadn't the wit to think up a 
 
 "I am... Esfahen" he said in a small voice.
 
-```ad-roll
+```
 
 What does that mean? It means he's a member of the royal family, that's what.
 
@@ -99,14 +99,14 @@ Official treasures seekers? I think maybe executors of the Marquess' will and wh
 
 "A dragon's head?!" squeals ESFAHEN. FORET hushes him as they see a small group ahead of them.
 
-```ad-roll
+```
 Have they opened the gate? No
 Lets assume they're fiddling with a rusted lock and haven't yet got to brute force.
 ```
 
 ORLEN and FORET exchange glances and agree to slip back into the trees. FORET steps down to sneak a closer look
 
-```ad-roll
+```
 This will be a Hunt Roll but for that we'll need to flesh out more of FORET's background.
 
 FORET
@@ -134,19 +134,19 @@ There are beastbitten wolves feasting on a kill in the gardens.
 
 FORET hears the group arguing about something just out of sight through the gates, which are being held shut by the group. They agree to return with reinforcements then quickly depart. Moving carefully FORET peeks through the rusted gate and sees several large wolves enjoying a fresh human kill.
 
-```ad-roll
+```
 Do the others remain out of sight in the forest? Yes but... someone looks back to see FORET staring through the gate before the forest fog hides them.
 ```
 
 FORET and ORLEN discuss the situation in hushed tones. "We find ourselves in a predicament, sir."
 
-```ad-roll
+```
 UNE bearing: HOSTILE - JUDGMENT
 ```
 
 "You doubt we can take on a pack of dogs? They've had their fill now."
 
-```ad-roll
+```
 How are the two junior members of the group holding up?
 
 Mahera: SOCIABLE
@@ -159,7 +159,7 @@ ESFAHEN is concerned that the group who just departed are coming back with more 
 
 The gate squeals as they pull it open enough to slip inside.
 
-```ad-roll
+```
 Do the wolves look up from their kill? Yes but... they seem uninterested in another hunt.
 
 Moment (d5) 3: A row of white roses has tangled to form one giant, thorned bush. The petals sting if touched.
@@ -171,7 +171,7 @@ They convene behind tangled rose bush, dropping white petals on the windfall bra
 
 > "See, the dogs will be sated with their kill for some time. We shall enter directly."
 
-```ad-roll
+```
 Does anyone look closer (1=M, 2=E, 3=O, 4=F, 5=No)? (d5) 5
 
 FORET has a horticultural leaning. Is he interested in exploring the garden? No
@@ -193,20 +193,23 @@ ORLEN
 TBD: Why was he disinherited?
 
 Do the wolves stay feeding as they approach the manor doors? Yes
-Moment (d4) 2: A clump of fur has been left caught on a branch. It is coarse and gray.
+Moment (d4) 2: A clump of fur has been left caught on a branch. 
+It is coarse and gray.
 ```
 
 They make a careful crossing of the lawn, passing the wolves which all but ignore them. ORLEN takes the lead and FORET is at the back. MAHERA holds ESFAHEN's hand, to feel like she is helping.
 
-```ad-roll
-I was about to do a Ruin roll for ESFAHEN here but that's the wrong game. Suffice it say, this is a bit frightening for him. He is, after all, an innocent Lamb being hunted by his family.
+```
+I was about to do a Ruin roll for ESFAHEN here but that's the wrong game. 
+Suffice it say, this is a bit frightening for him. He is, after all, 
+an innocent Lamb being hunted by his family.
 ```
 
 ESFAHEN is dragged past a low branch that is thick with grey wolf hair. He can smell the canine bloodlust, the terror of the hunt. He can feel again what it was like to slip between the blood-stained hands and run into the night.
 
 The huge doors are guarded on either side by giant stone stags, their bodies facing straight out and their heads turned away from each other. Their huge antlers still nearly meet in the middle above their heads. ESFAHEN huddles between the stone legs while the others talk.
 
-```ad-roll
+```
 Who examines the door? (d4) 4=FORET
 
 HUNT ROLL (+1 for vigilance)
@@ -218,7 +221,7 @@ Rolled (1, 6): Gain one Hunt Token
 > "Don't say that" said ESFAHEN.
 
 # Scene 4. The Manor House
-```ad-roll
+```
 Does the door just open with the handle? No
 
 I think it's time for our adventurers to put some effort in. FORET is going to try simply applying his shoulder to the door, for now. It may come to pass that ORLEN has to help out too.
@@ -250,13 +253,13 @@ ESFAHEN has been sitting under the stone stag, watching the wolves warily. He le
 
 MAHERA spins round with the crossbow raised in both hands. She tries to show calm and menace while struggling to hold its weight steady.
 
-```ad-roll
+```
 Do the wolves immediately stop? Yes
 ```
 
 She talks quietly to her companions without turning around. "Walk me backwards through the doorway. I'm not taking my eyes off them."
 
-```ad-roll
+```
 Is the entry hall empty? Yes
 ```
 
@@ -266,7 +269,7 @@ Inside ORLEN and FORET have not recovered from the shock of bursting through the
 
 Two doorways lead north and south while a massive double staircase sweeps up towards an upper room.
 
-```ad-roll
+```
 Can they hear anything? Yes but... it doesn't sound threatening
 Either (1) conversation (2) music (3) a roaring fire (4) laughter? (d4) 2=music
 How do they react? CAUTIOUS
@@ -280,7 +283,7 @@ A hubbub of voices is audible from the room at the top of the stairs. ORLEN was 
 
 MAHERA hears the singing now and whirls around to take in their surroundings, to find somewhere to escape.
 
-```ad-roll
+```
 HUNT ROLL
 Rolled 1, 1: Lose your Hunt Tokens and encounter something terrible
 ```
@@ -297,20 +300,20 @@ They are in (`(d4) 2`) a small salon with a raised platform in the corner, and s
 
 > FORET: "There will be servant's corridors that lead through the back. If we hope to not meet anyone dangerous that seems the best way."
 
-```ad-roll
+```
 HUNT ROLL
 Rolled 4: Gain one Hunt Token but encounter something terrible
 ```
 
 FORET finds a hidden door, whose surface is painted to blend with the plaster walls. A small wolf's-head doorknob is hidden behind a curtain. He quickly lets go of the ornate doorknob to look at his now-bloodied hand. The wolf has extended its retractable fangs as the knob is turned, cutting into FORET's palm.
 
-```ad-roll
+```
 FORET gains the new Condition, Bitten by a Wolf Door
 ```
 
 MAHERA takes a candle and her crossbow into the dark corners of the room.
 
-```ad-roll
+```
 HUNT ROLL
 Rolled 1: Lose your Hunt Tokens and encounter something terrible
 Is that (1) from her past, (2) new? (d2) 1
@@ -327,7 +330,7 @@ In the darkest corner of the salon is a small writing desk, with pen and ink pot
 > "Esfahan, do you know a woman called Keeara?"
 > ESFAHAN nods carefully. "I met a priestess Keeara at... uncle's house."
 
-```ad-roll
+```
 Does he spot anything about MAHERA to link her to Keeara? No
 Does she put 2 and 2 together? Yes but... doesn't say everything.
 ```
@@ -340,7 +343,7 @@ MAHERA realises the importance of many conversations she has overheard. She had 
 
 FORET motions the group to follow quietly. They enter an undecorated servant's hallway. There is a tall clock with a broken mechanism; it neither ticks nor chimes but the automaton circles endlessly — an elk followed by a pack of wolves.
 
-```ad-roll
+```
 Is there anyone here? No
 The next door they open is (d4) 1: A small parlour
 ```
@@ -351,7 +354,7 @@ Inside the small parlour is a single table and chair, with a body slumped in it.
 
 ORLEN walks around to examine the room in detail.
 
-```ad-roll
+```
 HUNT ROLL
 Rolled 5, 4: Gain one Hunt Token but encounter something terrible
 ORLEN spends the token for one gold.
@@ -361,14 +364,14 @@ As he moves, the eyes of the dead body begin to slowly track him round the room.
 
 > ORLEN, drawing a sword: "I think our man here is not as sleepy as he makes out."
 
-```ad-roll
+```
 Does anyone touch him? Yes
 What does he do? (d6) 6: Kick with both back legs when frightened
 ```
 
 FORET steps forward with his sword to pin the man to the chair. With a squeal like a skewered animal the corpse kicks the chair wildly back and leaps up.
 
-```ad-roll
+```
 Does someone attack (1-3) FORET (4) ORLEN (5-6) Nobody? (d6) 4=ORLEN
 
 COMBAT
@@ -389,7 +392,7 @@ FORET is caught off guard and ORLEN engages on his own, one hand still holding t
 
 It seems like FORET wants to say something about his client taking unnecessary risks, but ORLEN is too solicitous of his injury for a rebuke to land.
 
-```ad-roll
+```
 How much gold does the body give up? (7d6) 2
 - Dagger sheath with a rather beautiful embroidery of complex knotwork
 - Various metal coins depicting King Argiol Seo, eyes scratched out
@@ -399,7 +402,7 @@ FORET takes an ornate knife sheath with intricate knotwork from the de-animated 
 
 Meanwhile MAHERA and ESFAHEN stand at the door, nervous and transfixed. MAHERA had forgotten entirely about her crossbow. A solicitous smile from ORLEN breaks her out of her reverie.
 
-```ad-roll
+```
 Did anyone hear the fight? No
 Do they check the next room along? No
 ```
@@ -409,7 +412,7 @@ They reach the end of the corridor. A set of stairs lead up, while a final door 
 > FORET: "If we wait here we'll be discovered for sure. The kitchens will have exits outside."
 > ORLEN: "We'll have to risk it or turn back through the way we came. Quietly..."
 
-```ad-roll
+```
 RISK
 - No relevant skill
 - Devil's Bargain
@@ -424,7 +427,7 @@ Rolled 6 light: Success
 
 ORLEN quietly opens the door to a corridor with open doors on both sides. At the far end is a double door to the gardens. A dumb waiter is embedded in the wall of the corridor, through which they can hear the carousing upstairs. As they pass the chatter goes quiet.
 
-```ad-roll
+```
 Does someone listen closer? (d4) 3: FORET
 
 HUNT ROLL (+1 vigilance)
@@ -439,7 +442,7 @@ Spends one Hunt token to find: Heavy copper urn, shaped like a scaled beast with
 ORLEN hears a single voice echoing down the shaft, "in truth we do not age in here at all, though clearly the best living is done with the scent of prey on the wind". He stops short to consider this statement and while he does, spies a heavy copper urn through the door of an open cupboard. Before the others get too far ahead he has it and runs after them.
 
 # Scene 6. The Servants Entrance
-```ad-roll
+```
 Is it night now? No
 Are they alone out here? No
 (1-2) Adventurers (3-4) Beastbitten (5-6) Random: (d6) 4
@@ -453,7 +456,7 @@ How many? (d6) 3
 
 "Ah we wondered if we would meet again." Two men and a woman stand outside in the late afternoon, drinking from small glasses. The woman looks away and lifts her veil slightly to sip her drink.
 
-```ad-roll
+```
 Do they offer a drink? Yes
 Character bearing: FRIENDLY - CELEBRATION
 New (1) brother (2) sister? (d2) 1
@@ -463,7 +466,7 @@ New (1) brother (2) sister? (d2) 1
 
 MAHERA stares at the man, trying to tell if he is lying, if he is scheming, if he is hunting them.
 
-```ad-roll
+```
 HUNT ROLL
 Rolled 5, 2: Gain one Hunt Token but encounter something terrible
 
@@ -472,7 +475,7 @@ Is the drink poisoned? Yes
 
 The light is poor but it seems the liquid in ORLEN's glass is not the same as the drink in the others' glasses. She tries to surreptitiously avert disaster by dropping her heavy crossbow on ORLEN's foot.
 
-```ad-roll
+```
 RISK ROLL
 Devil's bargain: NEGLIGENCE / WAR
 ↪ No matter what ORLEN is enraged
@@ -496,13 +499,13 @@ ORLEN increases ruin by 1.
 
 ORLEN squeals and attempts to lash out at MAHERA. He recovers his composure and takes a swig as MAHERA shouts "no!".
 
-```ad-roll
+```
 Does anyone else work out what's happening? No
 ```
 
 "That's not what they're drinking!" she says, too late. Mansur laughs heartily, merry and excited. ORLEN stares into his glass while FORET, too late, draws his weapon at the nearest person.
 
-```ad-roll
+```
 Who is nearest? (d3) 3=Iman
 ```
 
@@ -510,13 +513,13 @@ Iman stutters and sweats as FORET's short blade rests on his throat. Mansur cont
 
 "Just a little something to give the hunt some energy." Staring right at ORLEN he says "the game has nearly started! You must stay within the grounds of the house and you must run! So run!".
 
-```ad-roll
+```
 Has the drug still to take effect? Yes but... it won't take long.
 ```
 
 ORLEN can feel the desire to flee in his bones and has one last chance at fighting before the prey-instinct takes hold.
 
-```ad-roll
+```
 RISK ROLL
 
 What can go wrong?
@@ -537,7 +540,7 @@ Dark rolled highest
 
 In a last surge of willpower ORLEN leaps at Mansur and drives a sabre through his neck. The look of mirth on his face is frozen until it looks unnatural and the blood flowing down his front looks black in the low light.
 
-```ad-roll
+```
 COMBAT ROLL
 
 Pack Members - Endurance 9
@@ -560,7 +563,7 @@ FORET saw ORLEN leap into battle but didn't account for how fast Iman would be i
 
 "Aw shit, where has he gone?"
 
-```ad-roll
+```
 Two things happening here. I'll start a clock (d6) to count down to the suggestibility wearing off. We'll start at 1 and increment it whenever a d6 roll is higher than the current value (like a Ruin roll).
 
 But also, we'll see if the rest of the party can find ORLEN if they want. Until that point, or until the poison wears off, we'll not track where he is because he's not playable.
@@ -573,7 +576,7 @@ Did ESFAHEN see which way ORLEN went? No
 
 "He ran in front of me but I didn't see where he went after that. Over there?" MAHERA pointed towards the an area of thick foliage that might have once been an orchard, or a hedge maze. It was getting darker now.
 
-```ad-roll
+```
 HUNT ROLL
 Rolled 4, 1: Gain one Hunt Token but encounter something terrible
 
