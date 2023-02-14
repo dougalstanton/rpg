@@ -3,7 +3,7 @@ author:
   name: Dougal Stanton
   email: solorpg@dougalstanton.net
 
-remote_theme: seanh/jekyll-theme-oatcake@0.1.25
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
  - jekyll-feed
 
