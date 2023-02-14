@@ -6,9 +6,13 @@ summary: "A short Ironsworn game, inspired by some art from the Delve supplement
 
 system: "Ironsworn"
 supplements: "Ironsworn Delve"
+
+header:
+  image: "/assets/images/marius-christensen-bh-3TXnCgX8-unsplash.jpg"
+  caption: "Photo: [Marius Christensen](https://unsplash.com/photos/bh-3TXnCgX8)"
 ---
 
-Page 5 of *Delve*: woman with sword and round shield, light armour, knee deep in water, entering a sea cave. Let's find out who she is and what she wants (randomly).
+Page 5 of *Ironsworn Delve*: woman with sword and round shield, light armour, knee deep in water, entering a sea cave. Let's find out who she is and what she wants (randomly).
 
     NAME: Emelyn
     CHARACTER ROLE: Guard 
