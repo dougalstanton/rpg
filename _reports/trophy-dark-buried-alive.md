@@ -12,8 +12,6 @@ adventure:
  author: "Jesse Ross"
 ---
 
-# Tomb Of 10,000 Dreams
-
 - Trophy Dark by Jesse Ross
 - _Tomb of 10,000 Dreams_ by Jesse Ross
 - Trophy Solo by PPM Games

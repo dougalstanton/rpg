@@ -8,8 +8,6 @@ summary: "A journalling game about a trio of misfits entering an alien artefact"
 
 ---
 
-# Chiron's Doom
-
 [Chiron's Doom](https://ickbat.itch.io/chirons-doom) by Nick Bate: <http://ickbat.itch.io>
 
 I pulled this out of last year's _Solo But Not Alone_ bundle on Itch.io and it took me a couple of hours to play I think. I was consciously 'rushing', ie choosing the obvious answer, not thinking deeply. So the actual ideas are a bit ropey and I know I played it wrong.

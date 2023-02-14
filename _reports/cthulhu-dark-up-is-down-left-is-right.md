@@ -19,8 +19,6 @@ adventure:
   author: "Final Fantasy Games"
 ---
 
-# Up is Down, Left is Right
-
 - [Cthulhu Dark](http://catchyourhare.com/files/Cthulhu%20Dark.pdf) by Graham Walmsley
 - [Arkham Horror the Card Game](https://www.fantasyflightgames.com/en/products/arkham-horror-the-card-game/) by Fantasy Flight Games
 

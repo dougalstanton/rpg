@@ -8,8 +8,6 @@ system: "Ironsworn"
 supplements: "Ironsworn Delve"
 ---
 
-# ShortCut: Delve into the Elder Caves
-
 Page 5 of *Delve*: woman with sword and round shield, light armour, knee deep in water, entering a sea cave. Let's find out who she is and what she wants (randomly).
 
     NAME: Emelyn
