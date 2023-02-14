@@ -1,5 +1,6 @@
 ---
-layout: home
+layout: default
+title: Solo RPG Reports
 ---
 
 The write-ups from a bunch of solo table-top roleplaying games that I have played.
