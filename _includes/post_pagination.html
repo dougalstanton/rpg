@@ -1,0 +1,19 @@
+{% if page.series %}
+  <nav class="pagination">
+    {% assign series = site.reports | where:"series",page.series %}
+    {% if page.series.num > 1 %}
+      {% assign prevSession = page.series.num | minus: 2 %}
+      {% assign prevEpisode = series[prevSession] %}
+      <a href="{{ prevEpisode.url | relative_url }}" class="pagination--pager" title="{{ prevEpisode.title | markdownify | strip_html }}">Previous</a>
+    {% else %}
+      <a href="#" class="pagination--pager disabled">Previous</a>
+    {% endif %}
+    {% if page.series.num < series.size %}
+      {% assign nextSession = page.series.num %}
+      {% assign nextEpisode = series[nextSession] %}                          
+      <a href="{{ nextEpisode.url | relative_url }}" class="pagination--pager" title="{{ nextEpisode.title | markdownify | strip_html }}">Next</a>
+    {% else %}
+      <a href="#" class="pagination--pager disabled">Next</a>
+    {% endif %}
+  </nav>
+{% endif %}
