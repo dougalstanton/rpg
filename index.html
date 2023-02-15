@@ -4,8 +4,8 @@ title: Solo RPG Reports
 header:
   overlay_image: "/assets/images/fox-hyde-Jsh4l4KpCw4-unsplash.jpg"
   overlay_color: "#000"
-  overlay_filter: "0.5"
-  caption: "Photo by [Fox & Hyde on Unsplash](https://unsplash.com/photos/Jsh4l4KpCw4?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)"
+  overlay_filter: "0.2"
+  caption: "Photo: [Fox & Hyde](https://unsplash.com/photos/Jsh4l4KpCw4)"
   
 ---
 
@@ -24,16 +24,16 @@ header:
     
   {% endfor %}
 
-  {% assign grouped = multiple | group_by: "series" %}
+  {% assign grouped = multiple | group_by: "series.title" %}
   {% for campaign in grouped %}  
     {% assign episodes = campaign.items | sort: "session" %}
   <p><strong>{{ campaign.name }}</strong> ({{ episodes[0].system }})</p>
-    {% if episodes[0].description %}
-  <p>{{ episodes[0].description }}</p>
+    {% if episodes[0].series.description %}
+  <p>{{ episodes[0].series.description }}</p>
     {% endif %}
     {% for episode in episodes %}
   <ul>
-  <li>Session {{ episode.session }}. <a href="{{ episode.url | relative_url }}">{{ episode.title }}</a> &mdash; {{ episode.summary }}</li>
+  <li>Session {{ episode.series.num }}. <a href="{{ episode.url | relative_url }}">{{ episode.title }}</a> &mdash; {{ episode.summary }}</li>
   </ul>
     {% endfor %}
   {% endfor %}
