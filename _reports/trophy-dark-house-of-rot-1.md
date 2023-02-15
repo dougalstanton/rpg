@@ -2,15 +2,15 @@
 layout: series
 
 title: "Entering the house"
-summary: “Bevan follows rumours of riches being smuggled into town”
+summary: "Bevan follows rumours of riches being smuggled into town"
 
 series: 
   title: "The Riches of the Cult of Rot"
   description: "Bevan the Red attempts to steal riches from a dangerous cult"
   num: 1
 
-system: “Trophy Dark”
-supplements: “Trophy Loom”
+system: "Trophy Dark"
+supplements: "Trophy Loom"
 
 header:
   image:
