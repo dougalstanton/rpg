@@ -6,9 +6,10 @@ summary: "A first Trophy Gold incursion, from an encounter I imagined"
 system: "Trophy Gold"
 supplements: ["Trophy Solo"]
 
-series: "Strangers on a Misty Road"
-description: "I wanted this to be all gothic and creepy and I failed"
-session: 1
+series:
+  title: "Strangers on a Misty Road"
+  description: "I wanted this to be all gothic and creepy and I failed"
+  num: 1
 ---
 
 

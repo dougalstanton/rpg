@@ -6,8 +6,9 @@ summary: "Following the remainder of the party into the maze"
 system: "Trophy Gold"
 supplements: ["Trophy Solo"]
 
-series: "Strangers on a Misty Road"
-session: 2
+series:
+  title: "Strangers on a Misty Road"
+  num: 2
 ---
 
 A brief reminder of some ad-hoc mechanics. The suggestibility poison that was given to ORLEN will wear off when the Suggestibility Clock reaches 6. It increments like a Ruin roll, ie when the value rolled is greater than the current clock. It’s currently on 2.

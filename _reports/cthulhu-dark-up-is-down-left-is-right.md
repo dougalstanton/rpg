@@ -10,9 +10,10 @@ summary: "Carolyn Fern's house is the battleground between magic and monsters"
 system: "Cthulhu Dark"
 supplements: "Arkham Horror LCG"
 
-series: "Arkham on Fire"
-description: "Night of the Zealot played without cards"
-session: 1
+series: 
+  title: "Arkham on Fire"
+  description: "Night of the Zealot played without cards"
+  num: 1
 
 adventure:
   title: "The Gathering"
