@@ -1,0 +1,26 @@
+
+{% assign system_map = site.reports | group_by: "system" %}
+{% for s in system_map %}
+<h2>{{ s.system }}</h2>
+
+{% assign multiples = s.items | where_exp:"i", "i.series" %}
+{% assign series_map = multiples | group_by: "series.title" %}
+{% for s in series_map %}
+  {% assign ordered_reports = s.items | sort: "series.num" %}
+{% assign pilot = ordered_reports[0] %}
+<h3><a href="{{ pilot.url | relative_url }}">{{ s.name }}</a></h3>
+<p>{{ pilot.series.description }}</p>
+<ul>
+  {% for r in ordered_reports %}
+  <li><a href="{{ r.url | relative_url }}">Part {{ r.series.num }}: {{ r.title }}</a>. {{ r.summary }}</li>
+  {% endfor %}
+</ul>
+{% endofor %}
+
+{% assign oneshots = s.items | where_exp:"i", "i.series == nil" %}
+{% for r in oneshots %}
+<h3><a href="{{ r.url | relative_url }}">{{ r.title }}</a></h3>
+<p>{{ r.summary }}</p>
+{% endfor %}
+
+{% endfor %}
