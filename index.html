@@ -11,29 +11,4 @@ header:
 
 <p>The write-ups from a bunch of solo table-top roleplaying games that I have played.</p>
 
-{% assign oneshots = site.reports | where_exp:"i", "i.series == nil" %}
-{% assign multiple = site.reports | where_exp:"i", "i.series" %}
-
-  {% for r in oneshots %}
-  
-  <p><strong><a href="{{ r.url | relative_url }}">{{ r.title }}</a></strong>{% if r.system %} ({{ r.system }}){% endif %}</p>
-    
-  <p>{% if r.summary %}{{ r.summary }}{% endif %}
-     {% if r.adventure %}<br/>Following <i>{{ r.adventure.title }}</i> by {{ r.adventure.author }}{% endif %}
-  </p>
-    
-  {% endfor %}
-
-  {% assign grouped = multiple | group_by: "series.title" %}
-  {% for campaign in grouped %}  
-    {% assign episodes = campaign.items | sort: "session" %}
-  <p><strong>{{ campaign.name }}</strong> ({{ episodes[0].system }})</p>
-    {% if episodes[0].series.description %}
-  <p>{{ episodes[0].series.description }}</p>
-    {% endif %}
-    {% for episode in episodes %}
-  <ul>
-  <li>Session {{ episode.series.num }}. <a href="{{ episode.url | relative_url }}">{{ episode.title }}</a> &mdash; {{ episode.summary }}</li>
-  </ul>
-    {% endfor %}
-  {% endfor %}
+{% include reports_by_system.html %}
