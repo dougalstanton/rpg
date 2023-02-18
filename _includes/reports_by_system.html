@@ -1,6 +1,6 @@
 
 {% assign with_systems = site.reports | where_exp:"i", "i.system" %}
-{% assign system_map = with_systems | group_by: "system", default: "" %}
+{% assign system_map = with_systems | group_by: "system" %}
 {% for s in system_map %}
 <h2>{{ s.system }}</h2>
 
