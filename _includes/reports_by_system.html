@@ -1,5 +1,6 @@
 
-{% assign system_map = site.reports | group_by: "system" %}
+{% assign with_systems = site.reports | where_exp:"i", "i.system" %}
+{% assign system_map = with_systems | group_by: "system", default: "" %}
 {% for s in system_map %}
 <h2>{{ s.system }}</h2>
 
@@ -15,7 +16,7 @@
   <li><a href="{{ r.url | relative_url }}">Part {{ r.series.num }}: {{ r.title }}</a>. {{ r.summary }}</li>
   {% endfor %}
 </ul>
-{% endofor %}
+{% endfor %}
 
 {% assign oneshots = s.items | where_exp:"i", "i.series == nil" %}
 {% for r in oneshots %}
@@ -23,4 +24,12 @@
 <p>{{ r.summary }}</p>
 {% endfor %}
 
+{% endfor %}
+
+{% assign systemless = site.reports | where_exp:"i", "i.system == nil" %}
+{% if systemless %}
+<h2>Others</h2>
+{% for r in systemless %}
+<h3><a href="{{ r.url | relative_url }}">{{ r.title }}</a></h3>
+<p>{{ r.summary }}</p>
 {% endfor %}
