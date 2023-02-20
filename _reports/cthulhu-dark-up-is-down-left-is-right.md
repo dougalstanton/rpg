@@ -24,9 +24,9 @@ header:
   caption: "Photo: [Jose Antonio Alba](https://pixabay.com/photos/old-books-book-the-books-ancient-1237619/)"
 
 gallery:
-  image_path: "/assets/images/fire-g7f66b3f38_640.jpg"
-  alt: "A woman watching a burning building"
-  title: "Photo: [Kathyrnne](https://pixabay.com/photos/fire-burning-red-house-woman-3709398/)"
+  - image_path: "/assets/images/fire-g7f66b3f38_640.jpg"
+    alt: "A woman watching a burning building"
+    title: "Photo: [Kathrynne](https://pixabay.com/photos/fire-burning-red-house-woman-3709398/)"
 
 ---
 
