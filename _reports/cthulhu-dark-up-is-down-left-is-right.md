@@ -22,6 +22,12 @@ adventure:
 header:
   image: "/assets/images/old-books-gc5f454951_1280.jpg"
   caption: "Photo: [Jose Antonio Alba](https://pixabay.com/photos/old-books-book-the-books-ancient-1237619/)"
+
+gallery:
+  image_path: "/assets/images/fire-g7f66b3f38_640.jpg"
+  alt: "A woman watching a burning building"
+  title: "Photo: [Kathyrnne](https://pixabay.com/photos/fire-burning-red-house-woman-3709398/)"
+
 ---
 
 - [Cthulhu Dark](http://catchyourhare.com/files/Cthulhu%20Dark.pdf) by Graham Walmsley
@@ -99,21 +105,21 @@ Advancing down the hallway with her letter opener held out in front of her, Caro
 You learn the bare minimum to proceed.
 ```
 
-The parlour door looks as it always did but in front of it there was an intensely hot orange haze. She found a vase of flowers which she threw at the heat haze.
+The parlour door looks as it always did but in front of it there is an intensely hot orange haze. She finds a vase of flowers which she throws at the heat haze.
 
 ```
 You learn the bare minimum to proceed.
 ```
 
-The scorched vase bounced off but the water seemed to briefly reduce the glow. But within seconds it had renewed. In that short time Carolyn realised the voice was still audible, and became louder as the water fizzed and steamed.
+The scorched vase bounces off but the water seemed to briefly reduce the glow. But within seconds it has renewed. In that short time Carolyn realises the voice is still audible, and became louder as the water fizzed and steamed.
 
-Carolyn shouted through the barrier to the barely-audible person beyond. "Hello! Who is there? Can you help me? I am trapped!"
+Carolyn shouts through the barrier to the barely-audible person beyond. "Hello! Who is there? Can you help me? I am trapped!"
 
 ```
 You barely succeed.
 ```
 
-The voice on the other side goes briefly silent before returning. This time it was much easier to understand. _Was it previously speaking in another language?_ Carolyn could only make out some of what was said. It was a woman's voice. She seemed to say "barrier must..." and "sacrifice". Then after a pause, the incomprehensible utterances returned.
+The voice on the other side goes briefly silent. When it restarts it is much easier to understand. _Was it previously speaking in another language?_ Carolyn can only make out some of what is said. It is a woman's voice. She seems to say "barrier must..." and "sacrifice". Then after a pause, the incomprehensible utterances return, like a chant.
 
 ```
 Your Insight remains at 4.
@@ -200,11 +206,11 @@ Carolyn stares at her, her mind stalling on the facts but accepting the conclusi
 Your Insight has reduced to 4.
 ```
 
-![Photo: [Kathyrnne](https://pixabay.com/photos/fire-burning-red-house-woman-3709398/)](/assets/images/fire-ge1097faec_1280.jpg){: .full}
-
 With the addition of accelerant it doesn't take long for Carolyn's house to burn hot and bright. The two women stand at a distance, smelling of petrol and burning textiles.
 
-"Lita," says the woman. "Lita Chantler."
+{% include gallery %}
+
+"Lita," says the woman, introducing herself. "Lita Chantler."
 
 "Carolyn Fern."
 
