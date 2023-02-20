@@ -18,6 +18,10 @@ series:
 adventure:
   title: "The Gathering"
   author: "Final Fantasy Games"
+  
+header:
+  image: "/assets/images/old-books-gc5f454951_1280.jpg"
+  caption: "Photo: [Jose Antonio Alba](https://pixabay.com/photos/old-books-book-the-books-ancient-1237619/)"
 ---
 
 - [Cthulhu Dark](http://catchyourhare.com/files/Cthulhu%20Dark.pdf) by Graham Walmsley
@@ -195,6 +199,8 @@ Carolyn stares at her, her mind stalling on the facts but accepting the conclusi
 ```
 Your Insight has reduced to 4.
 ```
+
+![Photo: [Kathyrnne](https://pixabay.com/photos/fire-burning-red-house-woman-3709398/)](/assets/images/fire-ge1097faec_1280.jpg){: .full}
 
 With the addition of accelerant it doesn't take long for Carolyn's house to burn hot and bright. The two women stand at a distance, smelling of petrol and burning textiles.
 
