@@ -1,14 +1,14 @@
 ---
 layout: series
 title: "The Huntsman's Manor"
-summary: "A first Trophy Gold incursion, from an encounter I imagined"
+summary: "I wanted this to be all gothic and creepy and I failed"
 
 system: "Trophy Gold"
 supplements: ["Trophy Solo"]
 
 series:
   title: "Strangers on a Misty Road"
-  description: "I wanted this to be all gothic and creepy and I failed"
+  description: "I dreamt up this opening encounter one night and had to decide what system I should use for the following adventure"
   num: 1
 ---
 

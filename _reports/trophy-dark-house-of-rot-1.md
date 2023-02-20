@@ -140,7 +140,7 @@ He should have guessed there was nothing here by the uninterrupted layer of dust
 
 He sat in the darkness of the common room, breathing slowly, trying not to sneeze and waiting for heart rate to come down. _Maybe I'm getting ill, this is probably the first sign of a fever._
 
-## Scene 4. Upstairs
+## Scene 4. Entrance hall
 
 ```
 Altered Scene? 2 Yes
