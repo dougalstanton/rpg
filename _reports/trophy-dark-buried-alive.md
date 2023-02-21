@@ -10,6 +10,10 @@ supplements: "Trophy Solo"
 adventure:
  title: "Tomb of 10,000 Dreams"
  author: "Jesse Ross"
+
+header:
+  image: "/assets/images/jennifer-martin-sCzKqzJxX7s-unsplash.jpg"
+  caption: "Photo: [Jennifer Martin](https://unsplash.com/@jemchicarock)"
 ---
 
 - Trophy Dark by Jesse Ross
