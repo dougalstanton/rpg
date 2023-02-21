@@ -9,6 +9,10 @@ summary: "An improvised game set on the Western Front in the Great War"
 
 system: "Trophy Dark"
 supplements: ["Trophy Solo", "Ironsworn"]
+
+header:
+  image: "/assets/images/chris-anderson-jIlPvAiMSyk-unsplash.jpg"
+  caption: "Photo: [Chris Anderson](https://unsplash.com/@chrsndrsn)"
 ---
 
 Using the rules from Trophy Dark and Trophy Solo, and extra action/theme oracles from Ironsworn. Preparation for this was reading the [Wikipedia entry on trench warfare](https://en.wikipedia.org/wiki/Trench_warfare) and Wilfred Owen's [Dulce et Decorum Est](https://www.poetryfoundation.org/poems/46560/dulce-et-decorum-est).
