@@ -1,4 +1,7 @@
 title: Solo RPG Reports
+subtitle: Little adventures with rules and dice
+masthead_title: Solo RPG
+description: Reports of pen-and-paper RPGs played solo
 author: 
   name: Dougal Stanton
   email: solorpg@dougalstanton.net
@@ -18,3 +21,11 @@ collections:
   reports:
     output: true
     permalink: /:path
+
+defaults:
+  # _reports
+  - scope:
+      path: ""
+      type: reports
+    values:
+      read_time: true
