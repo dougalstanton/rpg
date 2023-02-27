@@ -29,3 +29,7 @@ defaults:
       type: reports
     values:
       read_time: true
+
+feed:
+  collections:
+    path: "{{ base_url }}/feed.xml"
