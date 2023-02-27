@@ -32,4 +32,4 @@ defaults:
 
 feed:
   collections:
-    path: "{{ base_url }}/feed.xml"
+    path: "/rpg/feed.xml"
