@@ -32,4 +32,5 @@ defaults:
 
 feed:
   collections:
-    path: "/rpg/feed.xml"
+    reports:
+      path: "/rpg/feed.xml"
