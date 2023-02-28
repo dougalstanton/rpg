@@ -1,18 +1,17 @@
 {% if page.series %}
   <nav class="pagination">
-    {% assign unordered_series = site.reports | where:"series",page.series %}
-    {% assign series = unordered_series | sort:"series.num" %}
-    {% if page.series.num > 1 %}
-      {% assign prevSession = page.series.num | minus: 2 %}
-      {% assign prevEpisode = series[prevSession] %}
-      <a href="{{ prevEpisode.url | relative_url }}" class="pagination--pager" title="{{ prevEpisode.title | markdownify | strip_html }}">Previous</a>
+    {% assign series = site.reports | where:"series.title",page.series.title %}
+    {% assign prevNum = page.series.num | minus: 1 %}
+    {% assign previous = series | find:"series.num",prevNum %}
+    {% if previous %}
+      <a href="{{ previous.url | relative_url }}" class="pagination--pager" title="{{ previous.title | markdownify | strip_html }}">Previous</a>
     {% else %}
       <a href="#" class="pagination--pager disabled">Previous</a>
     {% endif %}
-    {% if page.series.num < series.size %}
-      {% assign nextSession = page.series.num %}
-      {% assign nextEpisode = series[nextSession] %}                          
-      <a href="{{ nextEpisode.url | relative_url }}" class="pagination--pager" title="{{ nextEpisode.title | markdownify | strip_html }}">Next</a>
+    {% assign nextNum = page.series.num | plus: 1 %}
+    {% assign next = series | find:"series.num",nextNum %}
+    {% if next %}                         
+      <a href="{{ next.url | relative_url }}" class="pagination--pager" title="{{ next.title | markdownify | strip_html }}">Next</a>
     {% else %}
       <a href="#" class="pagination--pager disabled">Next</a>
     {% endif %}
