@@ -34,3 +34,5 @@ feed:
   collections:
     reports:
       path: "/rpg/solorpg.xml"
+atom_feed:
+  path: "/rpg/solorpg.xml"
