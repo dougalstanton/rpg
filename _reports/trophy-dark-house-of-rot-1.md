@@ -7,7 +7,10 @@ date: 2023-01-26
 
 series: 
   title: "The Riches of the Cult of Rot"
-  description: "Bevan the Red attempts to steal riches from a dangerous cult"
+  description: >
+	  Bevan the Red attempts to steal riches from a dangerous cult,
+	  because his previous money-making exercise ended up destroying
+	  a wizard's tower *and* eradicating its existence from history.
   num: 1
 
 system: "Trophy Dark"
@@ -15,7 +18,7 @@ supplements: "Trophy Loom"
 
 header:
   image: "/assets/images/david-gabric-1_lfeLKq_H4-unsplash.jpg"
-  caption:  Photo: [David Gabrić](https://unsplash.com/@daconja)
+  caption: "Photo: [David Gabrić](https://unsplash.com/@daconja)"
 ---
 
 Adapted from a Fighter (formerly Healer) who entered the [Sky-Blind Spire](http://blog.trilemma.com/2016/04/the-sky-blind-spire.html). I'll convert him from The Vanilla Game to Trophy Dark, adding random backstory and other details as required. Other random details will come from Trophy Loom.

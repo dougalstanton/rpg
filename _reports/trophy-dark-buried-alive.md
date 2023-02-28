@@ -3,14 +3,14 @@ layout: report
 
 title: "Buried Alive"
 summary: >
-  "I ran this from the Trophy preview materials for the Kickstarter.
+  I ran this from the Trophy preview materials for the Kickstarter.
   The incursion and rules were both updated slightly for the final
   print release.
   
   First submission for #SHOCtober, Solo Horror October on Reddit
   and my first attempt playing Trophy solo too. I ended up using
   a slightly odd dialogue routine, literally playing out both role
-  of GM and player as well as the player-character. It sort of works?"
+  of GM and player as well as the player-character. It sort of works?
 date: 2020-10-13
 
 system: "Trophy Dark"
