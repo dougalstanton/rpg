@@ -8,7 +8,7 @@ date: 2023-01-26
 series: 
   title: "The Riches of the Cult of Rot"
   description: >
-  Bevan the Red attempts to steal riches from a dangerous cult, because his previous money-making exercise ended up destroying a wizard's tower *and* eradicating its existence from history.
+    Bevan the Red attempts to steal riches from a dangerous cult, because his previous money-making exercise ended up destroying a wizard's tower *and* eradicating its existence from history.
   num: 1
 
 system: "Trophy Dark"
