@@ -1,6 +1,7 @@
 {% if page.series %}
   <nav class="pagination">
-    {% assign series = site.reports | where:"series",page.series %}
+    {% assign unordered_series = site.reports | where:"series",page.series %}
+    {% assign series = unordered_series | sort:"series.num" %}
     {% if page.series.num > 1 %}
       {% assign prevSession = page.series.num | minus: 2 %}
       {% assign prevEpisode = series[prevSession] %}
