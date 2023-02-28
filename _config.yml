@@ -33,4 +33,4 @@ defaults:
 feed:
   collections:
     reports:
-      path: "/rpg/feed.xml"
+      path: "/rpg/solorpg.xml"
