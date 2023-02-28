@@ -2,7 +2,8 @@
 layout: report
 
 title: "Buried Alive"
-summary: "First attempt at soloing Trophy Dark in a slightly unorthodox dialogue"
+summary: "First submission for #SHOCtober, Solo Horror October on Reddit"
+date: 2020-10-13
 
 system: "Trophy Dark"
 supplements: "Trophy Solo"

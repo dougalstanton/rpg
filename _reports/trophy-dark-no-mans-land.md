@@ -6,6 +6,7 @@ banner_y: 0.272
 
 title: "No Man's Land"
 summary: "An improvised game set on the Western Front in the Great War"
+date: 2022-03-04
 
 system: "Trophy Dark"
 supplements: ["Trophy Solo", "Ironsworn"]

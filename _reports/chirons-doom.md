@@ -4,6 +4,7 @@ banner: "https://yugotour.com/wp-content/uploads/2018/02/monument.jpg"
 
 title: "Chiron's Doom"
 summary: "A journalling game about a trio of misfits entering an alien artefact"
+date: 2022-03-10
 
 header:
   image: "/assets/images/merritt-DzEeHYJIzOc-unsplash.jpg"
