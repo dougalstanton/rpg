@@ -1,12 +1,11 @@
 {% if page.series %}
   <nav class="pagination">
-    {% assign series = site.reports | where:"series.title",page.series.title %}
+    {% assign episodes = site.reports | where_exp:"report","report.series" %}
+    {% assign series = episodes | where:"series.title",page.series.title %}
     {% assign prevNum = page.series.num | minus:1 %}
     {% assign previous = series | find:"series.num",prevNum %}
     {% if previous %}
-    {% comment %}
       <a href="{{ previous.url | relative_url }}" class="pagination--pager" title="{{ previous.title | markdownify | strip_html }}">Previous</a>
-    {% endcomment %}
     {% else %}
       <a href="#" class="pagination--pager disabled">Previous</a>
     {% endif %}
@@ -14,9 +13,7 @@
     {% assign nextNum = page.series.num | plus:1 %}
     {% assign next = series | find:"series.num",nextNum %}
     {% if next %}
-    {% comment %}
       <a href="{{ next.url | relative_url }}" class="pagination--pager" title="{{ next.title | markdownify | strip_html }}">Next</a>
-    {% endcomment %}
     {% else %}
       <a href="#" class="pagination--pager disabled">Next</a>
     {% endif %}
