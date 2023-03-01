@@ -11,20 +11,22 @@ series:
     Bevan the Red attempts to steal riches from a dangerous cult, because his previous money-making exercise ended up destroying a wizard's tower *and* eradicating its existence from history.
   num: 1
 
-system: "Trophy Dark"
-supplements: "Trophy Loom"
+system: trophydark
+supplements: [trophyloom]
 
 header:
   image: "/assets/images/david-gabric-1_lfeLKq_H4-unsplash.jpg"
   caption: "Photo: [David Gabrić](https://unsplash.com/@daconja)"
 ---
 
-Adapted from a Fighter (formerly Healer) who entered the [Sky-Blind Spire](http://blog.trilemma.com/2016/04/the-sky-blind-spire.html). I'll convert him from The Vanilla Game to Trophy Dark, adding random backstory and other details as required. Other random details will come from Trophy Loom.
+I played a one-shot of [The Sky-Blind Spire](http://blog.trilemma.com/2016/04/the-sky-blind-spire.html) at a local RPG night, using the ingeniously titled [The Vanilla Game](https://vanillagame.carrd.co). At the end of this game I wanted to know what would happen to my character, so here we are.
+
+Previously he was a randomly-created "Fighter (formerly Healer)". I'll convert him from the rules above to Trophy Dark, adding random backstory and other details as required. Other random details will come from Trophy Loom. 
 
 - **Bevan** the Red
 - Sellsword, and Injurious Healer
 	- athletics, defence, surprise and surgery
-- Arm the resistance against Lord Haffir's tyranny
+- Drive: Arm the resistance against Lord Haffir's tyranny
 
 He is armed with a sword, knife, crossbow and wears a nice red brigandine, probably in an attempt to obfuscate the origin of his nickname. He seems strong, intelligent and charismatic but is riddled with the anguish of repeated failures both in his previous vocation and his current life.
 
