@@ -5,6 +5,7 @@
     {% assign prevNum = page.series.num | minus:1 %}
     {% assign previous = series | find:"series.num",prevNum %}
     {% if previous %}
+    <p>{{ previous | inspect }}</p>
       <a href="{{ previous.url | relative_url }}" class="pagination--pager" title="{{ previous.title | markdownify | strip_html }}">Previous</a>
     {% else %}
       <a href="#" class="pagination--pager disabled">Previous</a>
@@ -13,6 +14,7 @@
     {% assign nextNum = page.series.num | plus:1 %}
     {% assign next = series | find:"series.num",nextNum %}
     {% if next %}
+      <p>{{ next | inspect }}
       <a href="{{ next.url | relative_url }}" class="pagination--pager" title="{{ next.title | markdownify | strip_html }}">Next</a>
     {% else %}
       <a href="#" class="pagination--pager disabled">Next</a>
