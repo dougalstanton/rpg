@@ -3,18 +3,18 @@
     {% assign episodes = site.reports | where_exp:"report","report.series" %}
     {% assign series = episodes | where:"series.title",page.series.title %}
     {% assign prevNum = page.series.num | minus:1 %}
-    {% assign previous = series | find:"series.num",prevNum %}
-    {% if previous %}
-    <p>{{ previous | inspect }}</p>
+    {% assign previousA = series | where:"series.num",prevNum %}
+    {% if previousA %}
+      {% assign previous = previousA[0] %}
       <a href="{{ previous.url | relative_url }}" class="pagination--pager" title="{{ previous.title | markdownify | strip_html }}">Previous</a>
     {% else %}
       <a href="#" class="pagination--pager disabled">Previous</a>
     {% endif %}
     
     {% assign nextNum = page.series.num | plus:1 %}
-    {% assign next = series | find:"series.num",nextNum %}
-    {% if next %}
-      <p>{{ next | inspect }}
+    {% assign nextA = series | where:"series.num",nextNum %}
+    {% if nextA %}
+      {% assign next = nextA[0] %}
       <a href="{{ next.url | relative_url }}" class="pagination--pager" title="{{ next.title | markdownify | strip_html }}">Next</a>
     {% else %}
       <a href="#" class="pagination--pager disabled">Next</a>
