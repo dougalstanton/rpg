@@ -3,9 +3,8 @@
     {% assign episodes = site.reports | where_exp:"report","report.series" %}
     {% assign series = episodes | where:"series.title",page.series.title %}
     {% assign prevNum = page.series.num | minus:1 %}
-    {% assign previousA = series | where:"series.num",prevNum %}
-    {% if previous.size == 1 %}
-      {% assign previous = previousA[0] %}
+    {% assign previous = series | where:"series.num",prevNum | first %}
+    {% if previous %}
       <a href="{{ previous.url | relative_url }}" class="pagination--pager" title="{{ previous.title | markdownify | strip_html }}">Previous</a>
     {% else %}
       <a href="#" class="pagination--pager disabled">Previous</a>
