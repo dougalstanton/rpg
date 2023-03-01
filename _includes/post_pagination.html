@@ -4,7 +4,7 @@
     {% assign series = episodes | where:"series.title",page.series.title %}
     {% assign prevNum = page.series.num | minus:1 %}
     {% assign previousA = series | where:"series.num",prevNum %}
-    {% if previousA %}
+    {% if previous.size == 1 %}
       {% assign previous = previousA[0] %}
       <a href="{{ previous.url | relative_url }}" class="pagination--pager" title="{{ previous.title | markdownify | strip_html }}">Previous</a>
     {% else %}
@@ -12,9 +12,8 @@
     {% endif %}
     
     {% assign nextNum = page.series.num | plus:1 %}
-    {% assign nextA = series | where:"series.num",nextNum %}
-    {% if nextA %}
-      {% assign next = nextA[0] %}
+    {% assign next = series | where:"series.num",nextNum | first %}
+    {% if next %}
       <a href="{{ next.url | relative_url }}" class="pagination--pager" title="{{ next.title | markdownify | strip_html }}">Next</a>
     {% else %}
       <a href="#" class="pagination--pager disabled">Next</a>
