@@ -11,7 +11,7 @@ header:
 These are the separate games rules and supplements that I have used. Some games might not appear here because they are self-contained games. They will appear as 'Other' on the main page.
 
 {% for block in site.data.systems %}
-{% assign system = block[0] %}
+{% assign system = block[1] %}
 - [{{ system.title}}]({{ system.url }})
   - {{ system.author }}
   - {{ system.description }}
