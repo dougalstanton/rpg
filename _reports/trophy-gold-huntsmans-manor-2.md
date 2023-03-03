@@ -3,8 +3,8 @@ layout: series
 title: "The Huntsman's Manor"
 summary: "Following the remainder of the party into the maze"
 
-system: "Trophy Gold"
-supplements: ["Trophy Solo"]
+system: trophygold
+supplements: [trophysolo]
 
 series:
   title: "Strangers on a Misty Road"

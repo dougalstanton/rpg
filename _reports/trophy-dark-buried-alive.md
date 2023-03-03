@@ -13,8 +13,8 @@ summary: >
   of GM and player as well as the player-character. It sort of works?
 date: 2020-10-13
 
-system: "Trophy Dark"
-supplements: "Trophy Solo"
+system: trophydark
+supplements: [trophysolo]
 
 adventure:
  title: "Tomb of 10,000 Dreams"

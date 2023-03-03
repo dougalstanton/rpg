@@ -8,7 +8,7 @@ title: "Up is Down, Left is Right"
 summary: "Carolyn Fern's house is the battleground between magic and monsters"
 date: 2022-11-04
 
-system: "Cthulhu Dark"
+system: cthulhudark
 supplements: "Arkham Horror LCG"
 
 series: 

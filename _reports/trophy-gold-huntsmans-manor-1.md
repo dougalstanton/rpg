@@ -5,8 +5,8 @@ title: "The Huntsman's Manor"
 summary: "I wanted this to be all gothic and creepy and I failed"
 date: 2022-10-07
 
-system: "Trophy Gold"
-supplements: ["Trophy Solo"]
+system: trophygold
+supplements: [trophysolo]
 
 series:
   title: "Strangers on a Misty Road"

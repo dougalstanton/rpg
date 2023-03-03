@@ -5,8 +5,8 @@ title: "Into the Elder Caves"
 summary: "A short Ironsworn game, inspired by some art from the Delve supplement"
 date: 2021-02-28
 
-system: "Ironsworn"
-supplements: "Ironsworn Delve"
+system: ironsworn
+supplements: [delve]
 
 header:
   image: "/assets/images/marius-christensen-bh-3TXnCgX8-unsplash.jpg"

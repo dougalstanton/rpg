@@ -8,8 +8,8 @@ title: "No Man's Land"
 summary: "An improvised game set on the Western Front in the Great War"
 date: 2022-03-04
 
-system: "Trophy Dark"
-supplements: ["Trophy Solo", "Ironsworn"]
+system: trophydark
+supplements: [trophysolo, ironsworn]
 
 header:
   image: "/assets/images/chris-anderson-jIlPvAiMSyk-unsplash.jpg"
