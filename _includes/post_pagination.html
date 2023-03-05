@@ -1,7 +1,7 @@
 {% if page.series %}
+  {% assign episodes = site.reports | where_exp:"report","report.series" %}
+  {% assign series = episodes | where:"series.title",page.series.title %}
   <nav class="pagination">
-    {% assign episodes = site.reports | where_exp:"report","report.series" %}
-    {% assign series = episodes | where:"series.title",page.series.title %}
     {% assign prevNum = page.series.num | minus:1 %}
     {% assign previous = series | where:"series.num",prevNum | first %}
     {% if previous %}
@@ -18,4 +18,6 @@
       <a href="#" class="pagination--pager disabled">Next</a>
     {% endif %}
   </nav>
+{% else %}
+  <!-- Not part of a series -->
 {% endif %}

@@ -2,7 +2,12 @@
 {% assign with_systems = site.reports | where_exp:"i", "i.system" %}
 {% assign system_map = with_systems | group_by: "system" %}
 {% for s in system_map %}
+{% assign sysdata = site.data.systems[s.name] %}
+{% if sysdata %}
+<h2>{{ sysdata.title }}</h2>
+{% else %}
 <h2>{{ s.name }}</h2>
+{% endif %}
 
 {% assign multiples = s.items | where_exp:"i", "i.series" %}
 {% assign series_map = multiples | group_by: "series.title" %}
