@@ -3,7 +3,7 @@ layout: series
 
 title: "Exiting in a hurry"
 summary: "Bevan creeps further inside in the dead of night"
-date: 2023-??-??
+date: 2023-03-05
 
 series: 
   title: "The Riches of the Cult of Rot"
