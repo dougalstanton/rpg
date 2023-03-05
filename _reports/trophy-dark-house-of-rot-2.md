@@ -8,6 +8,7 @@ date: 2023-03-05
 series: 
   title: "The Riches of the Cult of Rot"
   num: 2
+  finished: true
 
 system: trophydark
 supplements: [trophyloom, ironsworn, delve, une]
@@ -215,6 +216,7 @@ The vines reached in and the fungus reached out, the two questing towards each o
 
 ```
 Your Ruin is increased to 5.
+Condition: tempted by buried riches
 ```
 
 Bevan turned straight around and lowered himself through the hole, dropping to the ground below. He ran back along the corridor and down the steps three at a time.
@@ -306,3 +308,18 @@ He could see the gate, he could see the way through. The daylight visible throug
 ---
 
 That last complication was absolute gold dust, the exact phrase of the complication I rolled at the very beginning when Bevan climbed into the garden, the one that hinted at the war between the cult and forest. I am so happy with that ending.
+
+For completion's sake, here's the final state of Bevan's character sheet.
+
+- Bevan the Red
+- Skills: Sellsword and formerly Injurious Healer
+	- athletics, defence, surprise
+	- surgery
+- Drive: Arm the resistance against Lord Haffir's tyranny
+- Ruin: 5
+- Conditions:
+	- desperate to prove himself
+	- itching red hands
+	- compulsive pulse checking
+	- haunted by voices of dead patients
+	- tempted by promises of buried riches
