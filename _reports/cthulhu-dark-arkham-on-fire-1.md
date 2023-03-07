@@ -18,7 +18,7 @@ series:
 
 adventure:
   title: "The Gathering"
-  author: "Final Fantasy Games"
+  author: "Fantasy Flight Games"
   
 header:
   image: "/assets/images/old-books-gc5f454951_1280.jpg"
