@@ -1,5 +1,6 @@
 {% if page.system %}
   <div class="sidebar sticky">
+    <h2>Systems and tools</h2>
   {% assign system = site.data.systems[page.system] %}
     {% if system %}
     <h3>{{ system.title }}</h3>
@@ -9,8 +10,8 @@
   {% if page.supplements %}
     {% for s in page.supplements %}
       {% assign system = site.data.systems[s] %}
-      {% if s %}<h3>{{ system.title }}</h3>
-      {% else %}<h3>{{ s }}</h3>
+      {% if system %}<h4>{{ system.title }}</h4>
+      {% else %}<h4>{{ s }}</h4>
       {% endif %}
     {% endfor %}
   {% endif %}
