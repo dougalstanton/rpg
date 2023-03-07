@@ -1,0 +1,18 @@
+{% if page.system %}
+  <div class="sidebar sticky">
+  {% assign system = site.data.systems[page.system] %}
+    {% if system %}
+    <h3>{{ system.title }}</h3>
+    {% else %}
+    <h3>{{ page.system }}</h3>
+    {% endif %}
+  {% if page.supplements %}
+    {% for s in page.supplements %}
+      {% assign system = site.data.systems[s] %}
+      {% if s %}<h3>{{ system.title }}</h3>
+      {% else %}<h3>{{ s }}</h3>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+  </div>
+{% endif %}
