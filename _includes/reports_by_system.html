@@ -14,7 +14,8 @@
 {% for s in series_map %}
   {% assign ordered_reports = s.items | sort: "series.num" %}
 {% assign pilot = ordered_reports[0] %}
-<h3><a href="{{ pilot.url | relative_url }}">{{ s.name | smartify }}</a></h3>
+{% assign complete = ordered_reports.last.series.finished %}
+<h3><a href="{{ pilot.url | relative_url }}">{{ s.name | smartify }}</a>{% if complete %} (Finished){% endif %}</h3>
 <p>{{ pilot.series.description | markdownify }}</p>
 <ul>
   {% for r in ordered_reports %}
