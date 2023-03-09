@@ -1,7 +1,7 @@
 {% if page.system or page.adventure or page.series %}
   <div class="sidebar sticky">
     {% if page.series %}
-    <h2>{{series.title}} (Part {{ series.num }}) of </h2>
+    <h2>{{page.series.title}} (Part {{page.series.num}})</h2>
     {% endif %}
     
     {% if page.adventure %}
