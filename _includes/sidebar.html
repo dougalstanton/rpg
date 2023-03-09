@@ -1,11 +1,17 @@
-{% if page.system or page.adventure %}
+{% if page.system or page.adventure or page.series %}
   <div class="sidebar sticky">
+    {% if page.series %}
+    <h2>{{series.title}} (Part {{ series.num }}) of </h2>
+    {% endif %}
+    
     {% if page.adventure %}
     <p>Playing <i>{{ page.adventure.title }}</i> by {{ page.adventure.author }}.</p>
     {% else %}
-    <p>Playing an improvised adventure.</p>
+    <p>An improvised adventure.</p>
     {% endif %}
+    
     {% if page.system %}
+    <p>Tools and supplements used:</p>
     <ul>
       {% assign system = site.data.systems[page.system] %}
       <li><b>{% if system %}{{ system.title }}{% else %}{{ page.system }}{% endif %}</b></li>
