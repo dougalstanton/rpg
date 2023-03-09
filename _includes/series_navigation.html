@@ -8,7 +8,7 @@
       <p class="text-right">Read <a href="{{ next.url | relative_url }}"
                                     title="{{ next.title | markdownify | strip_html }}">Part&nbsp;{{ nextNum }}: <i>{{next.title | smartify}}</i></a>
     {% else %}
-        {% unless page.series.finished %}<p> class="text-right">Next part not available yet</p>{% endunless %}
+        {% unless page.series.finished %}<p class="text-right">Next part not available yet</p>{% endunless %}
     {% endif %}
     
     {% assign prevNum = page.series.num | minus:1 %}
