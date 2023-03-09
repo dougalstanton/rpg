@@ -1,0 +1,23 @@
+{% if page.series %}
+  {% assign episodes = site.reports | where_exp:"report","report.series" %}
+  {% assign series = episodes | where:"series.title",page.series.title %}
+  <nav>   
+    {% assign nextNum = page.series.num | plus:1 %}
+    {% assign next = series | where:"series.num",nextNum | first %}
+    {% if next %}
+      <p class="text-right">Read <a href="{{ next.url | relative_url }}"
+                                    title="{{ next.title | markdownify | strip_html }}">Part&nbsp;{{ nextNum }}: <i>{{next.title | smartify}}</i></a>
+    {% else %}
+        {% unless page.series.finished %}<p> class="text-right">Next part not available yet</p>{% endunless %}
+    {% endif %}
+    
+    {% assign prevNum = page.series.num | minus:1 %}
+    {% assign previous = series | where:"series.num",prevNum | first %}
+    {% if previous %}
+      <p class="text-left">Read <a href="{{ previous.url | relative_url }}"
+                                     title="{{ previous.title | markdownify | strip_html }}">Part&nbsp;{{ prevNum }}: <i>{{ previous.title | smartify }}</i></a></p>
+    {% endif %}
+  </nav>
+{% else %}
+  <!-- Not part of a series -->
+{% endif %}
