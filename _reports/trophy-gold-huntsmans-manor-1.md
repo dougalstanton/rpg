@@ -8,16 +8,15 @@ date: 2022-10-07
 system: trophygold
 supplements: [trophysolo]
 
+adventure:
+  title: "The Huntsman's Manor"
+  author: "Natalie Ash"
+
 series:
   title: "Strangers on a Misty Road"
   description: "I dreamt up this opening encounter one night and had to decide what system I should use for the following adventure"
   num: 1
 ---
-
-
-* Trophy Gold
-* Trophy Solo oracles
-* _The Huntsman's Manor_ incursion
 
 # Scene 1. Foggy Encounter
 

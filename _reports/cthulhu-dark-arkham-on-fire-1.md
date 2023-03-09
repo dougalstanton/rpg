@@ -28,12 +28,9 @@ gallery:
 
 ---
 
-- [Cthulhu Dark](http://catchyourhare.com/files/Cthulhu%20Dark.pdf) by Graham Walmsley
-- [Arkham Horror the Card Game](https://www.fantasyflightgames.com/en/products/arkham-horror-the-card-game/) by Fantasy Flight Games
+I decided to see if I could play the first scenario from the Arkham Horror card game using a rules-light RPG instead of the card game rules. I didn't use any external oracles, just advancing the plot in good or bad directions according to what seemed "right" in the moment.
 
-I decided to see if I could play the first scenario from the Arkham Horror game using a rules-light RPG instead of the card game rules. I didn't use any external oracles, just advancing the plot in good or bad directions according to what seemed "right" in the moment.
-
-So, this is Carolyn Fern in 'The Gathering', which is part 1 of _The Night of the Zealot_ campaign from the core Arkham Horror game.
+So, this is Carolyn Fern in 'The Gathering', which is part 1 of _The Night of the Zealot_ campaign from the Arkham Horror core game.
 
 ---
 

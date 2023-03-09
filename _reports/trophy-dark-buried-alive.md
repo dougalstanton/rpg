@@ -25,10 +25,6 @@ header:
   caption: "Photo: [Jennifer Martin](https://unsplash.com/@jemchicarock)"
 ---
 
-- Trophy Dark by Jesse Ross
-- _Tomb of 10,000 Dreams_ by Jesse Ross
-- Trophy Solo by PPM Games
-
 In the end, the forest claims everyone who enters. Most never return. Those that do come back with their minds and bodies broken. Fight to survive, but know that you will be marked. You will be claimed. You will be the forest’s trophy.
 
 * Name: Nima

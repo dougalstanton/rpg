@@ -6,6 +6,10 @@ summary: "Following the remainder of the party into the maze"
 system: trophygold
 supplements: [trophysolo]
 
+adventure:
+  title: "The Huntsman's Manor"
+  author: "Natalie Ash"
+
 series:
   title: "Strangers on a Misty Road"
   num: 2
