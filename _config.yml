@@ -29,6 +29,7 @@ defaults:
       type: reports
     values:
       read_time: true
+      show_date: true
 
 feed:
   collections:
