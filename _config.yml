@@ -5,6 +5,7 @@ description: Reports of pen-and-paper RPGs played solo
 author: 
   name: Dougal Stanton
   email: solorpg@dougalstanton.net
+date_format: "%-d %B %Y"
 
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
