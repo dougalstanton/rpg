@@ -33,7 +33,7 @@ defaults:
       show_date: true
   - scope:
       path: ""
-      type: site
+      type: page
     values:
       header.overlay_image: "/assets/images/fox-hyde-Jsh4l4KpCw4-unsplash.jpg"
       header.overlay_color: "#000"
