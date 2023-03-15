@@ -10,7 +10,14 @@ supplements: "Arkham Horror LCG"
 
 series: 
   title: "Arkham on Fire"
-  description: "Night of the Zealot played without cards"
+  description: >
+    I wanted to lean into the role-playing aspects of the
+    Arkham Horror Card Game, which is harder than you'd think
+    without doing a bunch of work. I chose the laziest possible
+    route, letting the dice add variation to the plot but not
+    veering far from the situation defined by the scenarios.
+    Consequently it's a railroad but since I'm my own player
+    that's probably allowed.
   num: 1
 
 adventure:
