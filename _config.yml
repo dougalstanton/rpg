@@ -31,6 +31,14 @@ defaults:
     values:
       read_time: true
       show_date: true
+  - scope:
+      path: ""
+      type: site
+    values:
+      header.overlay_image: "/assets/images/fox-hyde-Jsh4l4KpCw4-unsplash.jpg"
+      header.overlay_color: "#000"
+      header.overlay_filter: "0.2"
+      header.caption: "Photo: [Fox & Hyde](https://unsplash.com/photos/Jsh4l4KpCw4)"
 
 feed:
   collections:
