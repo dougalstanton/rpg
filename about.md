@@ -1,12 +1,6 @@
 ---
-layout: single
+layout: site
 title: What?
-
-header:
-  overlay_image: "/assets/images/fox-hyde-Jsh4l4KpCw4-unsplash.jpg"
-  overlay_color: "#000"
-  overlay_filter: "0.2"
-  caption: "Photo: [Fox & Hyde](https://unsplash.com/photos/Jsh4l4KpCw4)"
 ---
 
 I play tabletop roleplaying games solo, either ones designed for solo play or group-focused games that have been augmented to allow solo play.
