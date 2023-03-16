@@ -14,7 +14,7 @@
 <dl>{% for e in eps %}
   <dt><a href="{{ e.url | relative_url }}">Part {{ e.series.num }} &mdash; {{ e.title }}</a></dt>
   <!--summary--><dd>{{ e.summary | markdownify }}</dd>
-  <!--adventure-->{% if e.adventure %}<dd><em>{{ e.adventure.title }}</em> by {{ e.adventure.author }}</dd>
+  <!--adventure-->{% if e.adventure %}<dd><em>{{ e.adventure.title }}</em> by {{ e.adventure.author }}</dd>{% endif %}
   <!--system-->{% if differing %}<dd>{{ e.system }}</dd>{% endif %}
 {% endfor %}</dl>
 
