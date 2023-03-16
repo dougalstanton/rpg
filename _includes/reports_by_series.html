@@ -1,4 +1,4 @@
-{% assign series_dict = allepisodes | where_exp:"i", "i.series" | group_by:"series.title" %}
+{% assign series_dict = site.reports | where_exp:"i", "i.series" | group_by:"series.title" %}
 
 {% for s in series_dict %}
 {% comment %} list of { name, items[] } with unsorted list of items {% endcomment %}
