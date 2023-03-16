@@ -1,0 +1,21 @@
+{% assign series_dict = allepisodes | where_exp:"i", "i.series" | group_by:"series.title" %}
+
+{% for s in series_dict %}
+{% comment %} list of { name, items[] } with unsorted list of items {% endcomment %}
+  {% assign eps = s.items | sort:"num" %}
+  {% assign description = eps.first.series.description %}
+  {% assign complete = eps.last.series.finished %}
+  {% assign systems = eps | map:"system" | uniq %}
+  {% assign differing = systems.size > 1 %}
+<p><strong>{{ s.name | smartify }}</strong>
+  {% unless differing %} using {{ site.data.systems[systems.first] }}{% endunless %}</p>
+<p>{{ description }}</p>
+{% if complete %}<p>This series is complete.</p>{% endif %}
+<dl>{% for e in eps %}
+  <dt><a href="{{ e.url | relative_url }}">Part {{ e.series.num }} &mdash; {{ e.title }}</a></dt>
+  <!--summary--><dd>{{ e.summary | markdownify }}</dd>
+  <!--adventure-->{% if e.adventure %}<dd><em>{{ e.adventure.title }}</em> by {{ e.adventure.author }}</dd>
+  <!--system-->{% if differing %}<dd>{{ e.system }}</dd>{% endif %}
+{% endfor %}</dl>
+
+{% endfor %}
