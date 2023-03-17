@@ -1,16 +1,23 @@
 {% assign series_dict = site.reports | where_exp:"i", "i.series" | group_by:"series.title" %}
 
 {% for s in series_dict %}
-{% comment %} list of { name, items[] } with unsorted list of items {% endcomment %}
-  {% assign eps = s.items | sort:"series.num" %}
-  {% assign system = site.data.systems[eps.first.system].title %}
-<p><strong>{{ s.name | smartify }}</strong> using {{ system }}</p>
-<p>{{ eps.first.series.description }}</p>
+{% assign eps = s.items | sort:"series.num" %}
+{% assign system = site.data.systems[eps.first.system].title %}
+
+<section>
+  <p><strong>{{ s.name | smartify }}</strong></p>
+  <p class="page__meta">using {{ system }}</p>
+  {{ eps.first.series.description | markdownify }} {: .archive__item-excerpt }
 {% if eps.last.series.finished %}<p>This series is complete.</p>{% endif %}
-<dl>{% for e in eps %}
-  <dt><a href="{{ e.url | relative_url }}">Part {{ e.series.num }} &mdash; {{ e.title }}</a></dt>
-  <!--adventure-->{% if e.adventure %}<dd><em>{{ e.adventure.title }}</em> by {{ e.adventure.author }}</dd>{% endif %}
-  <!--summary-->{{ e.summary | markdownify }}
-{% endfor %}</dl>
+  
+{% for e in eps %}
+  <article class="archive__item">
+  <h2 class="archive__item-title notoc"><a href="{{ e.url | relative_url }}">Part {{ e.series.num }} &mdash; {{ e.title }}</a></h2>
+  <!--adventure-->{% if e.adventure %}<p class="page__meta"><em>{{ e.adventure.title }}</em> by {{ e.adventure.author }}</p>{% endif %}
+  <!--summary-->{{ e.summary | markdownify }} {: .archive__item-excerpt }
+  </article>
+{% endfor %}
+    
+</section>
 
 {% endfor %}
