@@ -12,9 +12,9 @@
   
 {% for e in eps %}
   <article class="archive__item">
-  <h2 class="archive__item-title notoc"><a href="{{ e.url | relative_url }}">Part {{ e.series.num }} &mdash; {{ e.title }}</a></h2>
+  <h3 class="archive__item-title notoc"><a href="{{ e.url | relative_url }}">Part {{ e.series.num }} &mdash; {{ e.title }}</a></h2>
   <!--adventure-->{% if e.adventure %}<p class="page__meta"><em>{{ e.adventure.title }}</em> by {{ e.adventure.author }}</p>{% endif %}
-  <!--summary-->{{ e.summary | markdownify }} {: .archive__item-excerpt }
+    <!--summary--><div class="archive__item-excerpt">{{ e.summary | markdownify }}</div>
   </article>
 {% endfor %}
     
