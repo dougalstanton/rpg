@@ -8,7 +8,7 @@
 
 <section class="series">
   <h2 class="series-title">{{ s.name | smartify }}</h2>
-  <p class="materials">{{ system }}</p>
+  <p class="materials"><span class="fa-solid fa-gear"></span> {{ system }}</p>
   <div class="series-desc">{{ eps.first.series.description | markdownify }}</div>
 {% if eps.last.series.finished %}<p>This series is complete.</p>{% endif %}
   
@@ -16,7 +16,7 @@
 {% for e in eps %}
    <section class="episode">
     <h3 class="episode-title"><a href="{{ e.url | relative_url }}">Part {{ e.series.num }} &mdash; {{ e.title }}</a></h3>
-    <!--adventure-->{% if e.adventure %}<p class="materials">{{ e.adventure.title }}</p>{% endif %}
+    <!--adventure-->{% if e.adventure %}<p class="materials"><span class="fa-solid fa-gear"></span> {{ e.adventure.title }}</p>{% endif %}
     <!--summary--><div class="episode-desc">{{ e.summary | markdownify }}</div>
    </section>
 {% endfor %}
