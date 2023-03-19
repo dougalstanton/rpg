@@ -15,7 +15,7 @@
   <div class="episode-list">
 {% for e in eps %}
    <section class="episode">
-    <h3 class="episode-title"><a href="{{ e.url | relative_url }}">Part {{ e.series.num }} &mdash; {{ e.title }}</a></h2>
+    <h3 class="episode-title"><a href="{{ e.url | relative_url }}">Part {{ e.series.num }} &mdash; {{ e.title }}</a></h3>
     <!--adventure-->{% if e.adventure %}<p class="episode-module"><em>{{ e.adventure.title }}</em> by {{ e.adventure.author }}</p>{% endif %}
     <!--summary--><div class="episode-desc">{{ e.summary | markdownify }}</div>
    </section>
