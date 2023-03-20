@@ -9,9 +9,9 @@
 <section class="series">
   <h2 class="series-title">{{ s.name | smartify }}</h2>
   <p class="materials">
-    <i class="fa-regular fa-gear" aria-hidden="true"></i> {{ system }}
+    <i class="fa-regular fa-gear" aria-hidden="true" title="System"></i> {{ system }}
     <span class="page__meta-sep"></span>
-    <i class="fa-regular fa-pen"></i> {% if eps.last.series.finished %} Series Complete {% else %} In Progress {% endif %}
+    <i class="fa-regular fa-pen" title="Writing status"></i> {% if eps.last.series.finished %} Series Complete {% else %} In Progress {% endif %}
   </p>
   <div class="series-desc">{{ eps.first.series.description | markdownify }}</div>
   
@@ -24,14 +24,14 @@
     {% if e.read_time %}
       {% assign words_per_minute = site.words_per_minute | default: 200 %}
       {% assign words = e.content | strip_html | number_of_words %}
-      <i class="far fa-clock" aria-hidden="true"></i>
+      <i class="far fa-clock" aria-hidden="true" title="Time to read"></i>
         {% if words < words_per_minute %}less than 1
         {% elsif words == words_per_minute %}1
         {% else %}{{ words | divided_by: words_per_minute }}
         {% endif %} minute read
         {% if e.adventure %}<span class="page__meta-sep"></span>{% endif %}
     {% endif %}
-    <!--adventure-->{% if e.adventure %}<i class="fa-regular fa-book" aria-hidden="true"></i> {{ e.adventure.title }}{% endif %}
+    <!--adventure-->{% if e.adventure %}<i class="fa-regular fa-book" aria-hidden="true" title="Adventure"></i> {{ e.adventure.title }}{% endif %}
     </p>
   {% endif %}
     <!--summary--><div class="episode-desc">{{ e.summary | markdownify }}</div>
