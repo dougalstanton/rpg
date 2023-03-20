@@ -1,7 +1,12 @@
 ---
 layout: series
+
 title: "The Huntsman's Manor"
-summary: "Following the remainder of the party into the maze"
+summary: >
+  The remainder of the party chase Orlen into the overgrown maze,
+  hoping to track him down before the hunting party get the scent
+  of blood.
+date: 2022-10-21
 
 system: trophygold
 supplements: [trophysolo]

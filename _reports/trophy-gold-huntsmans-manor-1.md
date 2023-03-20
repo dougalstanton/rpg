@@ -2,7 +2,9 @@
 layout: series
 
 title: "The Huntsman's Manor"
-summary: "I wanted this to be all gothic and creepy and I failed"
+summary: >
+  Two adventurers meet two runaways in the wilds, while travelling
+  to loot the long-abandoned home of the hunter Marquess Niral.
 date: 2022-10-07
 
 system: trophygold
@@ -14,7 +16,10 @@ adventure:
 
 series:
   title: "Strangers on a Misty Road"
-  description: "I dreamt up this opening encounter one night and had to decide what system I should use for the following adventure"
+  description: >
+    I dreamt up this opening encounter one night and had to decide what system I should use for the ensuing adventure. As I first
+    imagined it this would be quite a creepy, Gothic atmosphere but
+    somewhere along the way it fell flat.
   num: 1
 ---
 
