@@ -3,4 +3,4 @@ layout: site
 title: One Shots
 ---
 
-{% include reports_by_oneshots.html %}
+{% include reports_by_oneshot.html %}
