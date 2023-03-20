@@ -7,9 +7,9 @@
   <h2 class="oneshot-title"><a href="{{ r.url | relative_url }}">{{ r.title | smartify }}</a></h2>
   <p class="materials">
     <i class="fa-regular fa-gear" aria-hidden="true"></i> {{ system }}
-    {% if e.read_time %}
+    {% if r.read_time %}
       {% assign words_per_minute = site.words_per_minute | default: 200 %}
-      {% assign words = e.content | strip_html | number_of_words %}
+      {% assign words = r.content | strip_html | number_of_words %}
       <span class="page__meta-sep"></span>
       <i class="far fa-clock" aria-hidden="true"></i>
         {% if words < words_per_minute %}less than 1
@@ -17,7 +17,7 @@
         {% else %}{{ words | divided_by: words_per_minute }}
         {% endif %} minute read
     {% endif %}
-    {% if e.adventure %}
+    {% if r.adventure %}
       <span class="page__meta-sep"></span>
       <i class="fa-regular fa-book" aria-hidden="true"></i> {{ e.adventure.title }}
     {% endif %}
