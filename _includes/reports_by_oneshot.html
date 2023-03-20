@@ -3,7 +3,7 @@
 {% for r in oneshots %}
   {% assign system = site.data.systems[r.system].title | default: r.title %}
 
-<section class="oneshots">
+<section class="oneshot">
   <h2 class="oneshot-title"><a href="{{ r.url | relative_url }}">{{ r.title | smartify }}</a></h2>
   <p class="materials">
     <i class="fa-regular fa-gear" aria-hidden="true"></i> {{ system }}
