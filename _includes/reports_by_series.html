@@ -16,8 +16,9 @@
 {% for e in eps %}
    <section class="episode">
     <h3 class="episode-title"><a href="{{ e.url | relative_url }}">Part {{ e.series.num }} &mdash; {{ e.title }}</a></h3>
+  {% if e.read_time or e.adventure %}
     <p class="materials">
-    {% if page.read_time %}
+    {% if e.read_time %}
       {% assign words_per_minute = site.words_per_minute | default: 200 %}
       {% assign words = e.content | strip_html | number_of_words %}
       <i class="far fa-clock" aria-hidden="true"></i>
@@ -27,7 +28,9 @@
         {% endif %} minute read
         {% if e.adventure %}<span class="page__meta-sep"></span>{% endif %}
     {% endif %}
-    <!--adventure-->{% if e.adventure %}<i class="fa-regular fa-book" aria-hidden="true"></i> {{ e.adventure.title }}</p>{% endif %}
+    <!--adventure-->{% if e.adventure %}<i class="fa-regular fa-book" aria-hidden="true"></i> {{ e.adventure.title }}
+    </p>
+  {% endif %}
     <!--summary--><div class="episode-desc">{{ e.summary | markdownify }}</div>
    </section>
 {% endfor %}
