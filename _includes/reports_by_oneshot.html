@@ -1,7 +1,7 @@
 {% assign oneshots = site.reports | where_exp:"i", "i.series == nil" %}
 
 {% for r in oneshots %}
-  {% assign system = site.data.systems[r.system].title | default: r.title %}
+  {% assign system = site.data.systems[r.system].title | default: r.game.title | default: r.title %}
 
 <section class="oneshot">
   <h2 class="oneshot-title"><a href="{{ r.url | relative_url }}">{{ r.title | smartify }}</a></h2>
