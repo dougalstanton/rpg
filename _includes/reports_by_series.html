@@ -9,9 +9,9 @@
 <section class="series">
   <h2 class="series-title">{{ s.name | smartify }}</h2>
   <p class="materials">
-    <i class="fa-regular fa-gear" aria-hidden="true" title="System"></i> {{ system }}
+    <i class="far fa-gear" aria-hidden="true" title="System"></i> {{ system }}
     <span class="page__meta-sep"></span>
-    <i class="fa-regular fa-pen" title="Writing status"></i> {% if eps.last.series.finished %} Series Complete {% else %} In Progress {% endif %}
+    <i class="far fa-pen" title="Writing status"></i> {% if eps.last.series.finished %} Series Complete {% else %} In Progress {% endif %}
   </p>
   <div class="series-desc">{{ eps.first.series.description | markdownify }}</div>
   
@@ -31,7 +31,7 @@
         {% endif %} minute read
         {% if e.adventure %}<span class="page__meta-sep"></span>{% endif %}
     {% endif %}
-    <!--adventure-->{% if e.adventure %}<i class="fa-regular fa-book" aria-hidden="true" title="Adventure"></i> {{ e.adventure.title }}{% endif %}
+    <!--adventure-->{% if e.adventure %}<i class="far fa-book" aria-hidden="true" title="Adventure"></i> {{ e.adventure.title }}{% endif %}
     </p>
   {% endif %}
     <!--summary--><div class="episode-desc">{{ e.summary | markdownify }}</div>
