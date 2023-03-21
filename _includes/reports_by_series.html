@@ -34,7 +34,7 @@
     <!--adventure-->{% if e.adventure %}<i class="far fa-book" aria-hidden="true" title="Adventure"></i> {{ e.adventure.title }}{% endif %}
     </p>
   {% endif %}
-    <!--summary--><div class="episode-desc">{{ e.summary | markdownify }}</div>
+    <!--summary-->{% if e.description %}<div class="episode-desc">{{ e.description | markdownify }}</div>{% endif %}
    </section>
 {% endfor %}
  </div>
