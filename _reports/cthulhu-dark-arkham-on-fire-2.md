@@ -2,7 +2,8 @@
 layout: series
 
 title: "Hunt for the Wolf Man"
-summary: "Carolyn and Lita search for the cult followers of Umôrdhoth"
+description: >
+  Carolyn and Lita begin their search for the cult followers of Umôrdhoth.
 date: 2022-03-15
 
 system: cthulhudark

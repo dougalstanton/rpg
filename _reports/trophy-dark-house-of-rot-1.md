@@ -2,7 +2,8 @@
 layout: series
 
 title: "Entering the house"
-summary: "Bevan follows rumours of riches being smuggled into town"
+description: >
+  Bevan follows up on rumours of riches being smuggled into town.
 date: 2023-01-26
 
 series: 

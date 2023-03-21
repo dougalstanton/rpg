@@ -2,9 +2,8 @@
 layout: series
 
 title: "The Huntsman's Manor"
-summary: >
-  Two adventurers meet two runaways in the wilds, while travelling
-  to loot the long-abandoned home of the hunter Marquess Niral.
+description: >
+  Two adventurers meet two runaways in the wilds, while travelling to loot the long-abandoned home of the hunter Marquess Niral.
 date: 2022-10-07
 
 system: trophygold
@@ -17,9 +16,7 @@ adventure:
 series:
   title: "Strangers on a Misty Road"
   description: >
-    I dreamt up this opening encounter one night and had to decide what system I should use for the ensuing adventure. As I first
-    imagined it this would be quite a creepy, Gothic atmosphere but
-    somewhere along the way it fell flat.
+    I dreamt up this opening encounter one night and had to decide what system I should use for the ensuing adventure. As I first imagined it this would be quite a creepy, Gothic atmosphere (maybe they were approaching the gates of [Barovia](https://www.drivethrurpg.com/product/17527/I6-Ravenloft-1e)) but sadly that disappeared as play continued.
   num: 1
 ---
 

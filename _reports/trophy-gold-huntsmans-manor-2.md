@@ -2,7 +2,7 @@
 layout: series
 
 title: "The Huntsman's Manor"
-summary: >
+description: >
   The remainder of the party chase Orlen into the overgrown maze,
   hoping to track him down before the hunting party get the scent
   of blood.

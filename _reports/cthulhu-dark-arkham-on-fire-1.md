@@ -2,7 +2,7 @@
 layout: series
 
 title: "Up is Down, Left is Right"
-summary: "Carolyn Fern's house is the battleground between magic and monsters"
+description: "Carolyn Fern's house is the battleground between magic and monsters"
 date: 2022-11-04
 
 system: cthulhudark
@@ -11,13 +11,7 @@ supplements: "Arkham Horror LCG"
 series: 
   title: "Arkham on Fire"
   description: >
-    I wanted to lean into the role-playing aspects of the
-    Arkham Horror Card Game, which is harder than you'd think
-    without doing a bunch of work. I chose the laziest possible
-    route, letting the dice add variation to the plot but not
-    veering far from the situation defined by the scenarios.
-    Consequently it's a railroad but since I'm my own player
-    that's probably allowed.
+    I was looking for a Lovecraftian mystery to play that I didn't have to invent on the fly or worry how I was going to play without spoilers. Mystery games are the hardest to play solo, I think --- well, those and horror games! --- so there was never going to be a good answer. I turned to _Night of the Zealot_, the introductory campaign from the Arkham Horror Card Game for inspiration.
   num: 1
 
 adventure:

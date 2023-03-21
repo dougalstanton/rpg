@@ -3,7 +3,7 @@ layout: report
 banner: "https://yugotour.com/wp-content/uploads/2018/02/monument.jpg"
 
 title: "Chiron's Doom"
-summary: >
+description: >
   A journalling game about a trio of misfits entering an alien artefact
   which doesn't go well. I seem to play a lot of games like that.
 date: 2022-03-10

@@ -2,7 +2,8 @@
 layout: series
 
 title: "Exiting in a hurry"
-summary: "Bevan creeps further inside in the dead of night"
+description: >
+  Bevan creeps through the ramshackle mansion in the dead of night.
 date: 2023-03-05
 
 series: 

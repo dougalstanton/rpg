@@ -5,7 +5,8 @@ banner_x: 0.5
 banner_y: 0.272
 
 title: "No Man's Land"
-summary: "An improvised game set on the Western Front in the Great War"
+description: >
+  An improvised game set on the Western Front in the Great War. I played this in the days of posturing in the run-up to the Russian invasion of Ukraine.
 date: 2022-03-04
 
 system: trophydark
