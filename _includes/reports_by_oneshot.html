@@ -22,7 +22,7 @@
       <i class="far fa-book" aria-hidden="true" title="Adventure"></i> {{ r.adventure.title }}
     {% endif %}
   </p>
-  <div class="oneshot-desc">{{ r.summary | markdownify }}</div>
+  {% if r.description %}<div class="oneshot-desc">{{ r.description | markdownify }}</div>{% endif %}
 </section>
 
 {% endfor %}
