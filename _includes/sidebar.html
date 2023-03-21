@@ -14,7 +14,7 @@
     <ul>
       
       {% if page.game %}
-      <li><b><a href="{{page.game.url}}">{{page.game.title}}</a><b> by {{page.game.author}}</li>
+      <li><b><a href="{{page.game.url}}">{{page.game.title}}</a></b> by {{page.game.author}}</li>
       {% elsif page.system %}
         {% assign system = site.data.systems[page.system] %}
       <li><b>{% if system %}{{ system.title }}{% else %}{{ page.system }}{% endif %}</b></li>
