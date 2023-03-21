@@ -6,7 +6,7 @@
 <section class="oneshot">
   <h2 class="oneshot-title"><a href="{{ r.url | relative_url }}">{{ r.title | smartify }}</a></h2>
   <p class="materials">
-    <i class="fa-regular fa-gear" aria-hidden="true" title="System"></i> {{ system }}
+    <i class="far fa-gear" aria-hidden="true" title="System"></i> {{ system }}
     {% if r.read_time %}
       {% assign words_per_minute = site.words_per_minute | default: 200 %}
       {% assign words = r.content | strip_html | number_of_words %}
@@ -19,7 +19,7 @@
     {% endif %}
     {% if r.adventure %}
       <span class="page__meta-sep"></span>
-      <i class="fa-regular fa-book" aria-hidden="true" title="Adventure"></i> {{ r.adventure.title }}
+      <i class="far fa-book" aria-hidden="true" title="Adventure"></i> {{ r.adventure.title }}
     {% endif %}
   </p>
   <div class="oneshot-desc">{{ r.summary | markdownify }}</div>
