@@ -3,16 +3,21 @@ layout: report
 banner: "https://yugotour.com/wp-content/uploads/2018/02/monument.jpg"
 
 title: "Chiron's Doom"
-summary: "A journalling game about a trio of misfits entering an alien artefact"
+summary: >
+  A journalling game about a trio of misfits entering an alien artefact
+  which doesn't go well. I seem to play a lot of games like that.
 date: 2022-03-10
+
+game:
+  title: Chiron's Doom
+  author: Nick Bate
+  url: http://ickbat.itch.io
 
 header:
   image: "/assets/images/merritt-DzEeHYJIzOc-unsplash.jpg"
   caption: "[Merritt](https://unsplash.com/photos/DzEeHYJIzOc)"
 
 ---
-
-[Chiron's Doom](https://ickbat.itch.io/chirons-doom) by Nick Bate: <http://ickbat.itch.io>
 
 I pulled this out of last year's _Solo But Not Alone_ bundle on Itch.io and it took me a couple of hours to play I think. I was consciously 'rushing', ie choosing the obvious answer, not thinking deeply. So the actual ideas are a bit ropey and I know I played it wrong.
 

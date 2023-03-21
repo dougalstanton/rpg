@@ -2,15 +2,16 @@
 layout: report
 
 title: "Buried Alive"
-summary: >
-  I ran this from the Trophy preview materials for the Kickstarter.
-  The incursion and rules were both updated slightly for the final
-  print release.
-  
-  First submission for #SHOCtober, Solo Horror October on Reddit
+summary: |
+  This was my first submission for #SHOCtober, Solo Horror October on Reddit
   and my first attempt playing Trophy solo too. I ended up using
   a slightly odd dialogue routine, literally playing out both role
   of GM and player as well as the player-character. It sort of works?
+
+  I ran this from the Trophy preview materials released for the
+  crowdfunding drive. The incursion and rules were both updated
+  slightly for the final print release, so if you look at the
+  adventure in the final Trophy Dark book it might differ.
 date: 2020-10-13
 
 system: trophydark

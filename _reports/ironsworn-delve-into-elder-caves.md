@@ -2,7 +2,11 @@
 layout: report
 
 title: "Into the Elder Caves"
-summary: "A short Ironsworn game, inspired by some art from the Delve supplement"
+summary: >
+  A short game inspired by some of the artwork in the _Ironsworn: Delve_
+  supplement. I took inspiration from the photo, then built the details
+  of her quest from random oracle rolls. I was very pleased with this
+  whole game and how easily it seemed to come to life.
 date: 2021-02-28
 
 system: ironsworn
