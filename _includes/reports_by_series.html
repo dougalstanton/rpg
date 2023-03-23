@@ -31,7 +31,7 @@
         {% endif %} minute read
         {% if e.adventure %}<span class="page__meta-sep"></span>{% endif %}
     {% endif %}
-    <!--adventure-->{% if e.adventure %}<i class="far fa-book" aria-hidden="true" title="Adventure"></i> {{ e.adventure.title }}{% endif %}
+    <!--adventure-->{% if e.adventure %}<i class="fa fa-book" aria-hidden="true" title="Adventure"></i> {{ e.adventure.title }}{% endif %}
     </p>
   {% endif %}
     <!--summary-->{% if e.description %}<div class="episode-desc">{{ e.description | markdownify }}</div>{% endif %}
