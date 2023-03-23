@@ -9,9 +9,9 @@
 <section class="series">
   <h2 class="series-title">{{ s.name | smartify }}</h2>
   <p class="materials">
-    <i class="far fa-gear" aria-hidden="true" title="System"></i> {{ system }}
+    <i class="fa fa-gear" aria-hidden="true" title="System"></i> {{ system }}
     <span class="page__meta-sep"></span>
-    <i class="far fa-pen" title="Writing status"></i> {% if eps.last.series.finished %} Series Complete {% else %} In Progress {% endif %}
+    <i class="fa fa-pen" title="Writing status"></i> {% if eps.last.series.finished %} Series Complete {% else %} In Progress {% endif %}
   </p>
   <div class="series-desc">{{ eps.first.series.description | markdownify }}</div>
   
