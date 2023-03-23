@@ -1,4 +1,4 @@
-{% assign oneshots = site.reports | where_exp:"i", "i.series == nil" %}
+{% assign oneshots = site.reports | where_exp:"i", "i.series == nil" | sort:"title" %}
 
 {% for r in oneshots %}
   {% assign system = site.data.systems[r.system].title | default: r.game.title | default: r.title %}
