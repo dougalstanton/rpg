@@ -16,6 +16,9 @@
   </p>
   <div class="series-desc">{{ eps.first.series.description | markdownify }}</div>
   
+  <details>
+    <summary>Episode list</summary>
+  
   <div class="episode-list">
 {% for e in eps %}
     {% assign words_per_minute = site.words_per_minute | default: 200 %}
@@ -36,6 +39,9 @@
    </section>
 {% endfor %}
  </div>
+  
+  </details>
+  
 </section>
 
 {% endfor %}
