@@ -8,7 +8,7 @@
 {% capture progress %}{% if eps.last.series.finished %}Series Complete{% else %}In Progress{% endif %}{% endcapture %}
 
 <section class="series">
-  <h2 class="series-title">{{ s.name | smartify }}</h2>
+  <h2 class="series-title"><a href="{{ eps.first.url | relative_url }}" title="Read the first part">{{ s.name | smartify }}</a></h2>
   <p class="materials">
     <i class="fa fa-gear" aria-hidden="true" title="System"></i> {{ system }}
     <span class="page__meta-sep"></span>
@@ -17,7 +17,7 @@
   <div class="series-desc">{{ eps.first.series.description | markdownify }}</div>
   
   <details>
-    <summary>Episode list or <a href="{{ eps.first.url | relative_url }}">start here</a></summary>
+    <summary>Episode list</summary>
   
   <div class="episode-list">
 {% for e in eps %}
