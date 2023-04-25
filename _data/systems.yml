@@ -67,3 +67,10 @@ une:
   contains: [rules, tables]
   author: Zach Best
   url: https://www.drivethrurpg.com/product/134163/UNE-The-Universal-NPC-Emulator-rev
+  
+bold:
+  title: "BOLD: Book of Legends and Deeds"
+  description: Generate backstories and interludes
+  contains: [rules, tables]
+  author: Zach Best
+  url: https://www.drivethrurpg.com/product/137746/BOLD-Universal-PC-Stories-and-Deeds-Generator
