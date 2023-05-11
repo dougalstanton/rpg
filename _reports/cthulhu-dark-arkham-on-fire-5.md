@@ -67,14 +67,16 @@ Altered Scene? (3) Yes.
 SL, The Strangeness When it's Used: A low moan or other disturbing sound
 ```
 
-Carolyn felt dizzy as she stared up at the painting. The painting seemed to pull at her, lifting her consciousness into its depths. "Do you hear that?" said Lita behind her. Carolyn shook her head to clear it.
+Carolyn stared up at the painting. The painting seemed to pull at her, lifting her consciousness into its depths.
+
+"Do you hear that?" said Lita behind her. Carolyn shook her head to clear it. She listened, staring up at the painting but not focussing with her eyes.
 
 ```
 Carolyn listens: 1 normal
 Too much success (6)
 ```
 
-She listened, staring up at the painting but not focussing with her eyes. A low repeating mumbling noise washed over her and the lifting feeling returned. She felt almost detached from her body, not anchored to the ground any more. The mumbling noise seemed clearer, like an incantation.
+A low repeating mumbling noise washed over her and the lifting feeling returned. She felt almost detached from her body, not anchored to the ground any more. The mumbling noise seemed clearer, like an incantation.
 
 She could see the burning library in focus now, the flames licked higher and the smell of smoke filled her nostrils. Screams of panic, a bucket chain, the crash as the roof fell in. At the edge of the painting a group of hooded individuals with skull-like faces stood watching but not helping.
 
@@ -83,7 +85,7 @@ Carolyn learned disturbing knowledge with Insight of 3.
 Her Insight remains at 3.
 ```
 
-The mumbling stopped and Carolyn swayed gently. She steadied herself on the body of a grandfather clock.
+The mumbling stopped and Carolyn swayed gently. She steadied herself on the wall.
 
 "I think it came from the mask. I don't think we should have brought it" said Lita.
 
