@@ -14,7 +14,6 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
   - jemoji
   - jekyll-include-cache
 
@@ -43,10 +42,3 @@ defaults:
         overlay_color: "#000"
         overlay_filter: "0.2"
         caption: "Photo: [Fox & Hyde](https://unsplash.com/photos/Jsh4l4KpCw4)"
-
-feed:
-  collections:
-    reports:
-      path: "/solorpg.xml"
-atom_feed:
-  path: "/rpg/solorpg.xml"
