@@ -1,0 +1,63 @@
+--
+--
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <generator uri="https://jekyllrb.com/" version="{{ jekyll.version }}">Jekyll</generator>
+  <link href="{{ page.url | absolute_url }}" rel="self" type="application/atom+xml" />
+  <link href="{{ '/' | absolute_url }}" rel="alternate" type="text/html" hreflang="en" />
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ page.url | absolute_url | xml_escape }}</id>
+
+  {% assign title = site.title | default: site.name %}
+    <title type="html">Lonely Games</title>
+    <subtitle>Reports of pen-and-paper RPGs played solo</subtitle>
+    <author>
+        <name>{{ site.author.name | xml_escape }}</name>
+        <email>{{ site.author.email | xml_escape }}</email>
+    </author>
+
+  {% assign posts = site.reports | sort: "date" | reverse %}
+  {% assign posts_limit = site.feed.posts_limit | default: 10 %}
+  {% for post in posts limit: posts_limit %}
+    <entry{% if post.lang %}{{" "}}xml:lang="{{ post.lang }}"{% endif %}>
+      {% assign post_title = post.title | smartify | strip_html | normalize_whitespace | xml_escape %}
+
+      <title type="html">{{ post_title }}</title>
+      <link href="{{ post.url | absolute_url }}" rel="alternate" type="text/html" title="{{ post_title }}" />
+      <published>{{ post.date | date_to_xmlschema }}</published>
+      <updated>{{ post.last_modified_at | default: post.date | date_to_xmlschema }}</updated>
+      <id>{{ post.id | absolute_url | xml_escape }}</id>
+        <content type="html" xml:base="{{ post.url | absolute_url | xml_escape }}"><![CDATA[{{ post.content | strip }}]]></content>
+      <author>
+        <name>{{ site.author.name | xml_escape }}</name>
+      </author>
+      
+      {% assign game_system = post.game.title | default: site.data.systems[post.system].title | default: post.system %}
+      {% if game_system %}
+      <category term="{{ game_system }}" />
+      {% endif %}
+      
+      {% if post.adventure %}
+      <category term="{{ post.adventure.title }}" />
+      {% endif %}
+      
+      {% if post.series %}
+      <category term="{{ post.series.title }}" />
+      {% endif %}
+
+      {% assign post_summary = post.description | default: post.excerpt %}
+      {% if post_summary and post_summary != empty %}
+        <summary type="html"><![CDATA[{{ post_summary | strip_html | normalize_whitespace }}]]></summary>
+      {% endif %}
+
+      {% assign post_image = post.header.image | default: post.image %}
+      {% if post_image %}
+        {% unless post_image contains "://" %}
+          {% assign post_image = post_image | absolute_url %}
+        {% endunless %}
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ post_image | xml_escape }}" />
+        <media:content medium="image" url="{{ post_image | xml_escape }}" xmlns:media="http://search.yahoo.com/mrss/" />
+      {% endif %}
+    </entry>
+  {% endfor %}
+</feed>
