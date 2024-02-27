@@ -27,6 +27,7 @@ gallery:
     alt: "A woman watching a burning building"
     title: "Photo: [Kathrynne](https://pixabay.com/photos/fire-burning-red-house-woman-3709398/)"
 
+redirect_from: cthulhudark-up-is-down-left-is-right
 ---
 
 I decided to see if I could play the first scenario from the Arkham Horror card game using a rules-light RPG instead of the card game rules. I didn't use any external oracles, just advancing the plot in good or bad directions according to what seemed "right" in the moment.
