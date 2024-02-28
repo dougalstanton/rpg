@@ -16,6 +16,8 @@ game:
 header:
   image: /assets/images/sarah-lachise-88vFFj0xXxk-unsplash.jpg
   caption: "Photo: [Sarah Lachise](https://unsplash.com/photos/brown-wooden-house-under-white-clouds-88vFFj0xXxk)"
+
+redirect_from: we-deal-in-lead-bessie-bien.md
 ---
 Here I'm having a shot at [We Deal In Lead](https://byodinsbeardrpg.itch.io/we-deal-in-lead), an OSR/NSR system that was included with the _Solo but not Alone 4_ bundle on Itch.io. Most of the items in a bundle like that fall heavily into the "three prompts to daydream about" so it's good to have an actual game to play.
 
